@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="I7irCbwa-EeJ10YABsI8wg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="t2.services.demeter.zeus.gsi.gov.uk/prweb/PRWebLDAP3/app/AnimalHealth/E0f4wlAkcclA3PWutqEKfwQm_7vfKPJV*/!STANDARD" CVScreenId="8a712750-40d2-4190-8ba5-47e5b2368776" CvTextArea="323, 440, 769, 26" CvType="AnyWordGroup" DesignTimeRectangle="325, 436, 768, 35" DesignTimeScaleFactor="1.75" ElementType="Text" FuzzySelectorArgument="&lt;webctrl name='PegaGadget1Ifr' tag='IFRAME' /&gt;&lt;webctrl type='' class='content-item content-field item-2 flex flex-row dataValueRead' isleaf='1' parentid='RULE_KEY' tag='DIV' /&gt;" Guid="10bbb0c5-932e-4adf-ab9f-bcb34d8fca34" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='Composite_H1LMBI7NJHZMIAPJ9AGDN65LVPB4Y491DA' title='Animal Health Portal' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="8a712750-40d2-4190-8ba5-47e5b2368776" CvTextArea="47, 439, 234, 35" CvTextArgument="Activity Purpose" CvType="Text" DesignTimeRectangle="52, 436, 228, 35" ElementType="Text" FuzzySelectorArgument="&lt;webctrl name='PegaGadget1Ifr' tag='IFRAME' /&gt;&lt;webctrl aaname='Activity Purpose' parentid='RULE_KEY' tag='DIV' type='' class='content-item content-label item-1 flex flex-row heading_2_dataLabelRead dataLabelRead heading_2_dataLabelRead' check:innerText='Activity Purpose' /&gt;" Guid="f510bbad-cb07-43ec-9783-345be7f375a8" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="3f5f16f3044bb4637463f2dc46447712.png" xmlns="">0Y7kyNCVo9UCPfYVBrr8a4Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

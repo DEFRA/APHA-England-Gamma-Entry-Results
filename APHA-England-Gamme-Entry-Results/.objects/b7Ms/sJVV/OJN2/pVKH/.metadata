@@ -1,0 +1,14 @@
+﻿{
+  "Name": "UK181475103010(1)",
+  "Type": "Element",
+  "TaxonomyType": "Checkbox",
+  "Id": "pVKH_Gus-USRkMwgbsbw-w",
+  "Reference": "u70FNKxx7EOHPBwkfez66Q/pVKH_Gus-USRkMwgbsbw-w",
+  "ParentRef": "u70FNKxx7EOHPBwkfez66Q/OJN20OONM0iakqpZ2sMsiw",
+  "Created": "2026-06-16T10:33:53.0167983Z",
+  "Updated": "2026-06-16T10:33:53.0167983Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

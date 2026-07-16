@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="1sFLNrAqMESHzx7h-tnlMQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="t2.services.demeter.zeus.gsi.gov.uk/prweb/PRWebLDAP3/app/AnimalHealth/E0f4wlAkcclA3PWutqEKfwQm_7vfKPJV*/!STANDARD" CVScreenId="d77ec757-ac99-4477-ba1d-0f71e474da30" CvElementArea="71, 1266, 44, 42" CvType="CheckBox" DesignTimeRectangle="76, 1268, 37, 37" DesignTimeScaleFactor="1.75" ElementType="CheckBox" FullSelectorArgument="[string.Format(&quot;&lt;webctrl name='PegaGadget1Ifr' tag='IFRAME' /&gt;&lt;webctrl id='ViewTable' tableRow='1' tag='TABLE' /&gt;&lt;webctrl tableRow='{0}' tag='INPUT' type='checkbox' /&gt;&quot;, intRowNumber)]" Guid="1f6c0dcc-cd9a-4d5e-87d6-9284a827d111" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='Composite_HYX6K64936MZHG2N0GSHTO2KOIJK5BI69A' title='Animal Health Portal' /&gt;" SearchSteps="Selector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d77ec757-ac99-4477-ba1d-0f71e474da30" CvTextArea="174, 1277, 204, 26" CvTextArgument="UK181475103010" CvType="Text" DesignTimeRectangle="177, 1274, 201, 33" ElementType="Text" FuzzySelectorArgument="&lt;webctrl name='PegaGadget1Ifr' tag='IFRAME' /&gt;&lt;webctrl id='ViewTable' tag='TABLE' /&gt;&lt;webctrl type='' tag='A' class='' aaname='UK181475103010' check:innerText='UK181475103010' /&gt;" Guid="2409bcd1-98b8-4c32-8f54-93e1dae07fb4" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c503c7d810e5a90a39dfbe9457dc6342.png" xmlns="">0bAi1PmL2Lki0wdsGAlmwMw</imageRef>
+    </TargetAnchorable>
+    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="1">
+      <ObjectRepositoryVariableData IsString="False" Name="intRowNumber" />
+    </scg:List>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="K6HcwAmd4k2aND0IUC2Whw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="t2.services.demeter.zeus.gsi.gov.uk/prweb/PRWebLDAP3/app/AnimalHealth/E0f4wlAkcclA3PWutqEKfwQm_7vfKPJV*/!STANDARD4" DesignTimeRectangle="378, 834, 308, 63" DesignTimeScaleFactor="1.75" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl name='PegaGadget1Ifr' tag='IFRAME' /&gt;&lt;webctrl aria-role='presentation' parentid='RULE_KEY' tag='TABLE' /&gt;&lt;webctrl name='$PpyWorkPage$psampleDispatchDate' type='text' tag='INPUT' class='inactvDtTmTxt' aaname='Date Samples Dispatched' /&gt;" Guid="7f04f0f0-109f-464f-a4b8-75c8875ddea1" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='Composite_HQIDA7W6N60W8EJWY4OI2SU8GWE5OBO9YA' title='Animal Health Portal' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="7acbc2b2-e2da-48e2-9dda-62105a434760" CvTextArea="66, 857, 292, 29" CvTextArgument="Date Samples Dispatched" CvType="Text" DesignTimeRectangle="69, 853, 309, 33" ElementType="Text" FuzzySelectorArgument="&lt;webctrl name='PegaGadget1Ifr' tag='IFRAME' /&gt;&lt;webctrl aria-role='presentation' parentid='RULE_KEY' tag='TABLE' /&gt;&lt;webctrl aaname='Date Samples Dispatched' type='' tag='LABEL' class='field-caption dataLabelForWrite' check:innerText='Date Samples Dispatched' /&gt;" Guid="b927047a-6772-434e-ade6-b55576b5d013" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="9a5784038e8eab57c9e5c4743f0442ce.png" xmlns="">07AgD8pgOUUyyHuT930Ai_w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

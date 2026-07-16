@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="AAOWXxKUj0CyYhzNIgMBCw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="t2.services.demeter.zeus.gsi.gov.uk/prweb/PRWebLDAP3/app/AnimalHealth/E0f4wlAkcclA3PWutqEKfwQm_7vfKPJV*/!STANDARD" CVScreenId="07c001f2-b7aa-4182-9a06-019c2dcfd783" CvElementArea="792, 1011, 304, 67" CvType="InputBox" DesignTimeRectangle="797, 1013, 296, 63" DesignTimeScaleFactor="1.75" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl name='PegaGadget2Ifr' tag='IFRAME' /&gt;&lt;webctrl aria-role='presentation' parentid='RULE_KEY' tag='TABLE' /&gt;&lt;webctrl name='$PpyWorkPage$psubmitterAHDO' type='' tag='SELECT' class='standard' aaname='Organisation' /&gt;" Guid="52eebafa-0498-4dc2-a4e8-e6437ca8c9c4" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Animal Health Portal' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="07c001f2-b7aa-4182-9a06-019c2dcfd783" CvTextArea="486, 1032, 152, 29" CvTextArgument="Organisation" CvType="Text" DesignTimeRectangle="489, 1028, 308, 33" ElementType="Text" FuzzySelectorArgument="&lt;webctrl name='PegaGadget2Ifr' tag='IFRAME' /&gt;&lt;webctrl aria-role='presentation' parentid='RULE_KEY' tag='TABLE' /&gt;&lt;webctrl parentid='CT' type='' tag='LABEL' class='field-caption dataLabelForWrite' aaname='Organisation' check:innerText='Organisation' /&gt;" Guid="7e6d481e-3394-4bd6-a948-4863a94a1f3d" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b2ce7cdb65357b274b4b6405279d5184.png" xmlns="">0E36wszBgdUG_sBKRV7Bk6A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

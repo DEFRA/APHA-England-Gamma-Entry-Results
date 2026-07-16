@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="vsBGAKSdrEWyrsvZfmHiZQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="t2.services.demeter.zeus.gsi.gov.uk/prweb/PRWebLDAP3/app/AnimalHealth/E0f4wlAkcclA3PWutqEKfwQm_7vfKPJV*/!STANDARD" CVScreenId="83584b07-99a1-4794-905a-e758220bfd78" CvTextArea="76, 773, 539, 29" CvTextArgument="Assigned To: Richard Jones- Update test Result" CvType="Text" DesignTimeRectangle="85, 769, 535, 33" DesignTimeScaleFactor="1.75" ElementType="Text" FuzzySelectorArgument="&lt;webctrl name='PegaGadget1Ifr' tag='IFRAME' /&gt;&lt;webctrl parentid='EXPAND-INNERDIV' tag='TABLE' /&gt;&lt;webctrl type='' tag='A' class='' aaname='  Assigned To:   *-   &amp;#x9;  &amp;#x9; &amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;Update test Result &amp;#x9;&amp;#x9; &amp;#x9;      ' check:innerText='Assigned To: *' /&gt;" Guid="8fc20a0c-5211-4575-a10a-e6a7f8f1712f" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Animal Health Portal' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="83584b07-99a1-4794-905a-e758220bfd78" CvTextArea="97, 710, 84, 24" CvTextArgument="Action" CvType="Text" DesignTimeRectangle="103, 705, 78, 37" ElementType="Text" FuzzySelectorArgument="&lt;webctrl name='PegaGadget1Ifr' tag='IFRAME' /&gt;&lt;webctrl id='harness-container' tag='TABLE' /&gt;&lt;webctrl id='headerlabel1919' type='' tag='H4' class='header-title' aaname='Action' check:innerText='Action' /&gt;" Guid="a9abe272-9208-4033-923f-ffae74e4de8b" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4434362a9db668cea4de81fe772df7b4.png" xmlns="">0bJthaI89GkK3xde2UsU1tQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

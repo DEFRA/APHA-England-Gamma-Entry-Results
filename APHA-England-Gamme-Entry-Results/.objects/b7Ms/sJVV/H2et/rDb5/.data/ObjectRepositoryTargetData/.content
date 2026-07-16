@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="sxm1eZECQkCD43q82uyMiQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="t2.services.demeter.zeus.gsi.gov.uk/prweb/PRWebLDAP3/app/AnimalHealth/E0f4wlAkcclA3PWutqEKfwQm_7vfKPJV*/!STANDARD" DesignTimeRectangle="798, 929, 308, 63" DesignTimeScaleFactor="1.75" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl name='PegaGadget2Ifr' tag='IFRAME' /&gt;&lt;webctrl aria-role='presentation' parentid='RULE_KEY' tag='TABLE' /&gt;&lt;webctrl name='$PpyWorkPage$psampleDispatchDate' type='text' tag='INPUT' class='inactvDtTmTxt' aaname='Date Samples Dispatched' /&gt;" Guid="e8950d93-87c3-416e-b9e7-b2228b6d550f" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Animal Health Portal' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="07c001f2-b7aa-4182-9a06-019c2dcfd783" CvTextArea="486, 951, 292, 29" CvTextArgument="Date Samples Dispatched" CvType="Text" DesignTimeRectangle="489, 949, 309, 32" ElementType="Text" FuzzySelectorArgument="&lt;webctrl name='PegaGadget2Ifr' tag='IFRAME' /&gt;&lt;webctrl aria-role='presentation' parentid='RULE_KEY' tag='TABLE' /&gt;&lt;webctrl aaname='Date Samples Dispatched' type='' tag='LABEL' class='field-caption dataLabelForWrite' check:innerText='Date Samples Dispatched' /&gt;" Guid="75d866e9-2f49-492c-a738-b3b769ffab35" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="44499f4cc41c60dc883f6ff8bab1ce68.png" xmlns="">0GV1DZhkQZUKhOpoGWWEd1Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

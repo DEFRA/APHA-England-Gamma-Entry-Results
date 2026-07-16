@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Enter note",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "A78mlyzQ0EWmDMynPByB_Q",
+  "Reference": "u70FNKxx7EOHPBwkfez66Q/A78mlyzQ0EWmDMynPByB_Q",
+  "ParentRef": "u70FNKxx7EOHPBwkfez66Q/5C-Gv01QfUCdWZqibmPK5Q",
+  "Created": "2026-06-16T12:13:33.1293797Z",
+  "Updated": "2026-06-16T12:13:33.1293797Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Submitter Name",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "k5aFFQ4leEm5BHmPtTneQQ",
+  "Reference": "u70FNKxx7EOHPBwkfez66Q/k5aFFQ4leEm5BHmPtTneQQ",
+  "ParentRef": "u70FNKxx7EOHPBwkfez66Q/H2etQC9NGUymkArqFofkgw",
+  "Created": "2026-07-06T12:25:55.4102105Z",
+  "Updated": "2026-07-06T12:25:55.4102105Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

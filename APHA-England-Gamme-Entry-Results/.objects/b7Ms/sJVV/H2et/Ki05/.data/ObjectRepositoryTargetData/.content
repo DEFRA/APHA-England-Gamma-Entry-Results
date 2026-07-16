@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="D403baL8rECtJvFo-Qkl9Q" Reference="u70FNKxx7EOHPBwkfez66Q/Ki05Gl8qX0mjMkTmPUmhuw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="t2.services.demeter.zeus.gsi.gov.uk/prweb/PRWebLDAP3/app/AnimalHealth/E0f4wlAkcclA3PWutqEKfwQm_7vfKPJV*/!STANDARD" CVScreenId="d267c073-d33c-4269-83e6-cb86f9b09209" CvElementArea="67, 978, 179, 62" CvTextArea="110, 995, 92, 26" CvTextArgument="Submit" CvType="Button" DesignTimeRectangle="71, 980, 172, 56" DesignTimeScaleFactor="1.75" ElementType="Button" FuzzySelectorArgument="&lt;webctrl name='PegaGadget1Ifr' tag='IFRAME' /&gt;&lt;webctrl name='pyCaseActionAreaButtons_pyWorkPage_10' tag='BUTTON' type='button' class='Strong pzhc pzbutton' aaname='Click here to submit the action' check:innerText='Submit' /&gt;" Guid="303580c1-f58a-4cfe-b224-2adfb6a00191" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Animal Health Portal' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="d267c073-d33c-4269-83e6-cb86f9b09209" CvElementArea="67, 847, 253, 63" CvTextArea="85, 866, 215, 31" CvTextArgument="Populate CTS Data" CvType="Button" DesignTimeRectangle="71, 851, 245, 56" FuzzySelectorArgument="&lt;webctrl name='PegaGadget1Ifr' tag='IFRAME' /&gt;&lt;webctrl class='buttonMiddle' parentid='RULE_KEY' tag='SPAN' type='' aaname='  ' check:innerText='Populate CTS Data' /&gt;" Guid="19d56587-abcf-47c1-83ae-9d45cfd67d3f" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ce46e4872120e9788e5352759c23d74f.png" xmlns="">0cbF8yPR9vkmEC3crM30HaA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

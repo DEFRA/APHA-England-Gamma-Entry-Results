@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="rQkrgLX5V0OJBnYKYFl6NA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="t2.services.demeter.zeus.gsi.gov.uk/prweb/PRWebLDAP3/app/AnimalHealth/E0f4wlAkcclA3PWutqEKfwQm_7vfKPJV*/!STANDARD" CVScreenId="85ddb470-5649-4ebb-baf0-7e1f11f09454" CvElementArea="67, 1450, 178, 61" CvTextArea="110, 1468, 94, 26" CvTextArgument="Submit" CvType="Button" DesignTimeRectangle="71, 1453, 172, 56" DesignTimeScaleFactor="1.75" ElementType="Button" FuzzySelectorArgument="&lt;webctrl name='PegaGadget1Ifr' tag='IFRAME' /&gt;&lt;webctrl name='pyCaseActionAreaButtons_pyWorkPage_10' tag='BUTTON' type='button' class='Strong pzhc pzbutton' aaname='Click here to submit the action' check:innerText='Submit' /&gt;" Guid="154eb030-a863-4767-ac26-a0de4ea11499" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='Composite_H1LMBI7NJHZMIAPJ9AGDN65LVPB4Y491DA' title='Animal Health Portal' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="177bc98ef5615301ec16a07eb1009ea8.png" xmlns="">022mXXcdU-0Gzvv2PPS9puQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

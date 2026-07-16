@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Open Activity",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "M1K3s204wEyovINDyIfyLQ",
+  "Reference": "u70FNKxx7EOHPBwkfez66Q/M1K3s204wEyovINDyIfyLQ",
+  "ParentRef": "u70FNKxx7EOHPBwkfez66Q/H2etQC9NGUymkArqFofkgw",
+  "Created": "2026-07-08T07:05:59.4452602Z",
+  "Updated": "2026-07-08T07:05:59.4452602Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

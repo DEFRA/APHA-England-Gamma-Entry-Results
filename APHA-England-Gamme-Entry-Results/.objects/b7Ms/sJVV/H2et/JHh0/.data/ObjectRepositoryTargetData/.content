@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="uVU645koaES75j7RWVShfg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="t2.services.demeter.zeus.gsi.gov.uk/prweb/PRWebLDAP3/app/AnimalHealth/E0f4wlAkcclA3PWutqEKfwQm_7vfKPJV*/!STANDARD" CVScreenId="63fad046-b8d6-456d-8051-46ddc5e71dcd" CvElementArea="214, 505, 434, 69" CvType="InputBox" DesignTimeRectangle="218, 507, 431, 63" DesignTimeScaleFactor="1.75" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl id='PegaGadget1Ifr' tag='IFRAME' /&gt;&lt;webctrl id='ActionOptions' tag='SELECT' type='' class='actionSelectStyle' aaname='  Take action  ' /&gt;" Guid="b94936a7-d891-4846-97f6-55371d2e5dea" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Animal Health Portal' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="63fad046-b8d6-456d-8051-46ddc5e71dcd" CvElementArea="40, 503, 177, 70" CvTextArea="55, 523, 138, 26" CvTextArgument="Take action" CvType="Button" DesignTimeRectangle="43, 507, 175, 45" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='PegaGadget1Ifr' tag='IFRAME' /&gt;&lt;webctrl id='pyActionLabel' tag='LABEL' type='' class='actionTitleBarLabelStyle' aaname='  Take action  ' check:innerText='Take action' /&gt;" Guid="26af6c6d-39d2-448e-8e86-92105458e70c" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e5fc6878a0ae78b77b99953b8ede404c.png" xmlns="">0QUg3HMj1WkCGU1nfyd7b9w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

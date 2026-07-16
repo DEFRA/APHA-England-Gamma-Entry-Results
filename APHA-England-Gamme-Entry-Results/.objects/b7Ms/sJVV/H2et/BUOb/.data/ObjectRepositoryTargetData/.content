@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="mu7sYCeN4Eq3tafkGahUhQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="t2.services.demeter.zeus.gsi.gov.uk/prweb/PRWebLDAP3/app/AnimalHealth/E0f4wlAkcclA3PWutqEKfwQm_7vfKPJV*/!STANDARD" CVScreenId="5d298689-0533-4e77-b46b-39766ec3f01b" CvElementArea="78, 615, 43, 44" CvType="CheckBox" DesignTimeRectangle="82, 618, 36, 37" DesignTimeScaleFactor="1.75" ElementType="CheckBox" FuzzySelectorArgument="&lt;webctrl name='PegaGadget1Ifr' tag='IFRAME' /&gt;&lt;webctrl id='bodyTbl_right' tag='TABLE' /&gt;&lt;webctrl id='pyTemplateCheckboxpyWorkPage' type='checkbox' tag='INPUT' class='Checkbox' aaname='' /&gt;" Guid="206bb3cc-1eb3-43cc-a8b8-f8459b8cb159" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='Composite_HD6U1B3QTVVYP3LCU82YIW3T5M41JQGUKA' title='Animal Health Portal' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="5d298689-0533-4e77-b46b-39766ec3f01b" CvTextArea="433, 628, 47, 26" CvTextArgument="OAI" CvType="Text" DesignTimeRectangle="436, 611, 45, 58" FuzzySelectorArgument="&lt;webctrl name='PegaGadget1Ifr' tag='IFRAME' /&gt;&lt;webctrl id='bodyTbl_right' tag='TABLE' /&gt;&lt;webctrl parentid='a2' type='' tag='DIV' class='oflowDiv' aaname='' check:innerText='OAI' /&gt;" Guid="53125577-0fb4-4a78-a718-a23ffd7e8fcc" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="9f4eac3f307900f00d1c9ea1f41ed1a9.png" xmlns="">0A9aPnV7gXUKd7lo6WEC3Ow</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

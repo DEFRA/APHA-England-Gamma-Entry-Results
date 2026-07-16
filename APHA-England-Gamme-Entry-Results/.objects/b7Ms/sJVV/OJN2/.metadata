@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge Animal Health Portal(1)",
+  "Type": "Screen",
+  "Id": "OJN20OONM0iakqpZ2sMsiw",
+  "Reference": "u70FNKxx7EOHPBwkfez66Q/OJN20OONM0iakqpZ2sMsiw",
+  "ParentRef": "u70FNKxx7EOHPBwkfez66Q/sJVVM3uAO0C3eccfmOJKiw",
+  "Created": "2026-06-16T10:32:43.2947985Z",
+  "Updated": "2026-06-16T10:32:43.2947985Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Take action",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "0gaU-NP6UEKjHVgR_alqig",
+  "Reference": "u70FNKxx7EOHPBwkfez66Q/0gaU-NP6UEKjHVgR_alqig",
+  "ParentRef": "u70FNKxx7EOHPBwkfez66Q/H2etQC9NGUymkArqFofkgw",
+  "Created": "2026-06-09T12:35:55.9039621Z",
+  "Updated": "2026-06-09T12:35:55.9039621Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

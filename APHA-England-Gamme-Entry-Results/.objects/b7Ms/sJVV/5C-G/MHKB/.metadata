@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Cancel",
+  "Type": "Element",
+  "Id": "MHKB_YMX7kCkSjP_RytPUA",
+  "Reference": "u70FNKxx7EOHPBwkfez66Q/MHKB_YMX7kCkSjP_RytPUA",
+  "ParentRef": "u70FNKxx7EOHPBwkfez66Q/5C-Gv01QfUCdWZqibmPK5Q",
+  "Created": "2026-06-16T12:30:03.0385939Z",
+  "Updated": "2026-06-16T12:30:03.0385939Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="STSxHphJa0KUX327BuGBQw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="t2.services.demeter.zeus.gsi.gov.uk/prweb/PRWebLDAP3/app/AnimalHealth/E0f4wlAkcclA3PWutqEKfwQm_7vfKPJV*/!STANDARD" CVScreenId="d3d74c5d-1d22-4df7-9b6d-537dfe098965" CvElementArea="1062, 750, 317, 69" CvType="InputBox" DesignTimeRectangle="1067, 754, 309, 63" DesignTimeScaleFactor="1.75" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl name='PegaGadget1Ifr' tag='IFRAME' /&gt;&lt;webctrl aria-role='presentation' parentid='RULE_KEY' tag='TABLE' /&gt;&lt;webctrl name='$PpyWorkPage$plaboratoryName' type='' tag='SELECT' class='standard' aaname='Laboratory Name' /&gt;" Guid="8e40af7b-1849-4fdd-8209-707289f0daeb" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='Composite_HWRNDW49P7IFMVYY76YDSV5HKP2ITLJ7LA' title='Animal Health Portal' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d3d74c5d-1d22-4df7-9b6d-537dfe098965" CvTextArea="755, 773, 204, 29" CvTextArgument="Laboratory Name" CvType="Text" DesignTimeRectangle="758, 769, 309, 33" ElementType="Text" FuzzySelectorArgument="&lt;webctrl name='PegaGadget1Ifr' tag='IFRAME' /&gt;&lt;webctrl aria-role='presentation' parentid='RULE_KEY' tag='TABLE' /&gt;&lt;webctrl aaname='Laboratory Name' type='' tag='LABEL' class='field-caption dataLabelForWrite' check:innerText='Laboratory Name' /&gt;" Guid="ca3c9571-e5a9-4c26-b17c-e5ee93c33e50" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e8ce06c43f04f9f4667272dc45c9e1ad.png" xmlns="">0LtvmfyX7Pk648WHSQSPw6A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Select Workbasket",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "COpMi12iLE-utz2E54rzbA",
+  "Reference": "u70FNKxx7EOHPBwkfez66Q/COpMi12iLE-utz2E54rzbA",
+  "ParentRef": "u70FNKxx7EOHPBwkfez66Q/H2etQC9NGUymkArqFofkgw",
+  "Created": "2026-06-17T10:23:17.9546778Z",
+  "Updated": "2026-06-17T10:23:17.9546778Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Resample",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "MyuSy9W_JUGpYTuDz5GVrA",
+  "Reference": "u70FNKxx7EOHPBwkfez66Q/MyuSy9W_JUGpYTuDz5GVrA",
+  "ParentRef": "u70FNKxx7EOHPBwkfez66Q/H2etQC9NGUymkArqFofkgw",
+  "Created": "2026-06-09T10:07:48.1456363Z",
+  "Updated": "2026-06-09T10:07:48.1456363Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "TD(2)",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "0ypBPia5MEWISE_4wBsatA",
+  "Reference": "u70FNKxx7EOHPBwkfez66Q/0ypBPia5MEWISE_4wBsatA",
+  "ParentRef": "u70FNKxx7EOHPBwkfez66Q/H2etQC9NGUymkArqFofkgw",
+  "Created": "2026-06-11T09:56:58.3323463Z",
+  "Updated": "2026-06-11T09:56:58.3323463Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

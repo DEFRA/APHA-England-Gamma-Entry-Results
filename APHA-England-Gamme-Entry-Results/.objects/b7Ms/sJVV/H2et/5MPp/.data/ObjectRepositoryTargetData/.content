@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ubkV6OVVCUenYvwVegjtog" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="t2.services.demeter.zeus.gsi.gov.uk/prweb/PRWebLDAP3/app/AnimalHealth/E0f4wlAkcclA3PWutqEKfwQm_7vfKPJV*/!STANDARD" CVScreenId="63bc58ea-3cf5-45c9-8773-4b082f4898ff" CvElementArea="796, 1050, 772, 66" CvType="InputBox" DesignTimeRectangle="800, 1053, 768, 63" DesignTimeScaleFactor="1.75" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl id='PegaGadget1Ifr' tag='IFRAME' /&gt;&lt;webctrl name='$PpyWorkPage$pprimaryDefraOrgUnit' tag='SELECT' type='' class='standard' aaname='Select ADHO' /&gt;" Guid="bb9f6ae4-3b79-4cf4-936a-e2c4be9efc5c" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Animal Health Portal' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="63bc58ea-3cf5-45c9-8773-4b082f4898ff" CvTextArea="92, 1070, 145, 26" CvTextArgument="Select ADHO" CvType="Text" DesignTimeRectangle="96, 1069, 704, 31" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='PegaGadget1Ifr' tag='IFRAME' /&gt;&lt;webctrl aaname='Select ADHO' parentid='EXPAND-OUTERFRAME' tag='LABEL' type='' class='field-caption dataLabelForWrite icon-required ' check:innerText='Select ADHO' /&gt;" Guid="f0f59696-b4b1-4851-864e-3d9105b34494" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a737aa9ab1c14c1987c8e13b5b8238a4.png" xmlns="">0lQY3_YCQSEOeROcam0Tc8g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

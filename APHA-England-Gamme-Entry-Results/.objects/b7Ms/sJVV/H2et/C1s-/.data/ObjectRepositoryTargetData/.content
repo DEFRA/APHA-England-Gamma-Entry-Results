@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="2mitNn9FSEuMOhh5Nwv4Rg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="t2.services.demeter.zeus.gsi.gov.uk/prweb/PRWebLDAP3/app/AnimalHealth/E0f4wlAkcclA3PWutqEKfwQm_7vfKPJV*/!STANDARD" CVScreenId="80f5fcc9-927d-4c7a-be75-00e6f7a92715" CvElementArea="66, 1353, 213, 59" CvTextArea="143, 1370, 59, 26" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="69, 1354, 209, 56" DesignTimeScaleFactor="1.75" ElementType="Button" FuzzySelectorArgument="&lt;webctrl name='PegaGadget1Ifr' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='BUTTON' class='buttonTdButton' aaname=' Save ' check:innerText='Save' /&gt;" Guid="3edcfd63-8847-4902-b17c-285a1ee17534" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Animal Health Portal' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="80f5fcc9-927d-4c7a-be75-00e6f7a92715" CvElementArea="67, 1459, 178, 62" CvTextArea="110, 1476, 92, 26" CvTextArgument="Submit" CvType="Button" DesignTimeRectangle="71, 1461, 172, 56" ElementType="Button" FuzzySelectorArgument="&lt;webctrl name='PegaGadget1Ifr' tag='IFRAME' /&gt;&lt;webctrl name='pyCaseActionAreaButtons_pyWorkPage_10' tag='BUTTON' type='button' class='Strong pzhc pzbutton' aaname='Click here to submit the action' check:innerText='Submit' /&gt;" Guid="e245d8d0-85b5-4bac-805e-2fbd88e3d0fe" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="de00ce3a84426b5231a30b76d9e54031.png" xmlns="">0CkgvJSwOGEe0023zX6fEag</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

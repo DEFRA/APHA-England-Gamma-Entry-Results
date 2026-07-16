@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Select & Apply Test Res…",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "KGiUmstxG0uX7bZitMIotg",
+  "Reference": "u70FNKxx7EOHPBwkfez66Q/KGiUmstxG0uX7bZitMIotg",
+  "ParentRef": "u70FNKxx7EOHPBwkfez66Q/OJN20OONM0iakqpZ2sMsiw",
+  "Created": "2026-06-16T10:47:42.0592159Z",
+  "Updated": "2026-06-16T10:47:42.0592159Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

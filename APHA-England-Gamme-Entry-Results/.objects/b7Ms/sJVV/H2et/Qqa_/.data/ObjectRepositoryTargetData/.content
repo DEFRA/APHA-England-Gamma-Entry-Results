@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="dIadimd7p06qfZQ9oc8l7A" Reference="u70FNKxx7EOHPBwkfez66Q/Qqa_o7cZIkmt6_D8m-GwFA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="t2.services.demeter.zeus.gsi.gov.uk/prweb/PRWebLDAP3/app/AnimalHealth/E0f4wlAkcclA3PWutqEKfwQm_7vfKPJV*/!STANDARD" CVScreenId="f6a13646-35d0-4721-b888-5306a7b9debe" CvElementArea="429, 690, 327, 71" CvType="InputBox" DesignTimeRectangle="436, 695, 317, 63" DesignTimeScaleFactor="1.75" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl name='PegaGadget1Ifr' tag='IFRAME' /&gt;&lt;webctrl id='bodyTbl_right' tag='TABLE' /&gt;&lt;webctrl id='animalId' type='text' tag='INPUT' class='' aaname='' /&gt;" Guid="aa9f0d9c-deb4-4e9d-9e82-a851a65d3162" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='Composite_HD6U1B3QTVVYP3LCU82YIW3T5M41JQGUKA' title='Animal Health Portal' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="1109, 682, 752, 98" FuzzySelectorArgument="&lt;webctrl name='PegaGadget1Ifr' tag='IFRAME' /&gt;&lt;webctrl id='bodyTbl_right' tag='TABLE' /&gt;&lt;webctrl type='' class='dataValueRead gridCell ' tag='TD' aaname='' /&gt;" Guid="f878fe94-69d9-42cf-8bf7-7a76be7fc48a" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ed6e00978bde66ebd1519e387f8a8fcc.png" xmlns="">0yLnudmqt-EymKaOYRRv9bw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

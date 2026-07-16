@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Notes",
+  "Type": "Element",
+  "Id": "9oPL72UsAkSze52dqB1sXg",
+  "Reference": "u70FNKxx7EOHPBwkfez66Q/9oPL72UsAkSze52dqB1sXg",
+  "ParentRef": "u70FNKxx7EOHPBwkfez66Q/H2etQC9NGUymkArqFofkgw",
+  "Created": "2026-06-16T12:05:54.2753275Z",
+  "Updated": "2026-06-16T12:05:54.2753275Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

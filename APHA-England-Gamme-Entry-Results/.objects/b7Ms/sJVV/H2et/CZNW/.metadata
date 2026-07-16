@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Laboratory Name",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "CZNWnAyUNUKc8SI6_UM-9Q",
+  "Reference": "u70FNKxx7EOHPBwkfez66Q/CZNWnAyUNUKc8SI6_UM-9Q",
+  "ParentRef": "u70FNKxx7EOHPBwkfez66Q/H2etQC9NGUymkArqFofkgw",
+  "Created": "2026-06-09T11:00:12.2290351Z",
+  "Updated": "2026-06-09T11:00:12.2290351Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

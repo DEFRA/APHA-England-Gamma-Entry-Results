@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="nkRUW_8NYkmZZWsw7oHE1A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="t2.services.demeter.zeus.gsi.gov.uk/prweb/PRWebLDAP3/app/AnimalHealth/E0f4wlAkcclA3PWutqEKfwQm_7vfKPJV*/!STANDARD" CVScreenId="b28552d6-dc64-4f98-9ffe-10e092bc3b75" CvElementArea="801, 802, 907, 184" CvType="InputBox" DesignTimeRectangle="805, 807, 898, 177" DesignTimeScaleFactor="1.75" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='PegaGadget1Ifr' tag='IFRAME' /&gt;&lt;webctrl tag='TEXTAREA' type='' class='TANORM textAreaStyle' aaname='Comments' /&gt;" Guid="7b052a43-3904-4dc5-9eb8-4ed54e32f7e3" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Animal Health Portal' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b28552d6-dc64-4f98-9ffe-10e092bc3b75" CvTextArea="66, 885, 127, 22" CvTextArgument="Comments" CvType="Text" DesignTimeRectangle="69, 880, 736, 31" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='PegaGadget1Ifr' tag='IFRAME' /&gt;&lt;webctrl aaname='Comments' parentid='RULE_KEY' tag='LABEL' type='' class='field-caption dataLabelForWrite icon-required ' check:innerText='Comments' /&gt;" Guid="d70f4e5e-3f39-44e5-b04b-dcf046968fd7" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="93a58b0aa51512809e8166ad5bec7c43.png" xmlns="">09kXF5R_2Y0KwVORpMIdiNA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

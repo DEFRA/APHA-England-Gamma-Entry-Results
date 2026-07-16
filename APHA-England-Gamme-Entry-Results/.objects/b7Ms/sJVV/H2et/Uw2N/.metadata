@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Reject",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "Uw2NToRtj0GInixwhG9AeA",
+  "Reference": "u70FNKxx7EOHPBwkfez66Q/Uw2NToRtj0GInixwhG9AeA",
+  "ParentRef": "u70FNKxx7EOHPBwkfez66Q/H2etQC9NGUymkArqFofkgw",
+  "Created": "2026-06-09T11:24:02.463071Z",
+  "Updated": "2026-06-09T11:24:02.463071Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

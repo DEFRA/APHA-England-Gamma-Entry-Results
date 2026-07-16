@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Remove Animals Under 6 …",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "dGqqUflKAUWQLWHIIX1-1w",
+  "Reference": "u70FNKxx7EOHPBwkfez66Q/dGqqUflKAUWQLWHIIX1-1w",
+  "ParentRef": "u70FNKxx7EOHPBwkfez66Q/H2etQC9NGUymkArqFofkgw",
+  "Created": "2026-06-11T10:20:26.5290235Z",
+  "Updated": "2026-06-11T10:20:26.5290235Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

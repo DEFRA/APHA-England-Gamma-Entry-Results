@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Transfer Type",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "7J5U9ms-QkaUTTmLqnHFUg",
+  "Reference": "u70FNKxx7EOHPBwkfez66Q/7J5U9ms-QkaUTTmLqnHFUg",
+  "ParentRef": "u70FNKxx7EOHPBwkfez66Q/H2etQC9NGUymkArqFofkgw",
+  "Created": "2026-06-17T10:20:47.5134271Z",
+  "Updated": "2026-06-17T10:20:47.5134271Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

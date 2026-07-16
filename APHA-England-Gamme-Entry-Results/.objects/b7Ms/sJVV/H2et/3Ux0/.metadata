@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Remove Selected Animals",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "3Ux0Uujdsk-NUgAW1KgMJQ",
+  "Reference": "u70FNKxx7EOHPBwkfez66Q/3Ux0Uujdsk-NUgAW1KgMJQ",
+  "ParentRef": "u70FNKxx7EOHPBwkfez66Q/H2etQC9NGUymkArqFofkgw",
+  "Created": "2026-06-11T09:21:38.5072549Z",
+  "Updated": "2026-06-11T09:21:38.5072549Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="BiG1WvQ_SU6o9l-WSHFvow" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="t2.services.demeter.zeus.gsi.gov.uk/prweb/PRWebLDAP3/app/AnimalHealth/E0f4wlAkcclA3PWutqEKfwQm_7vfKPJV*/!STANDARD" CVScreenId="8b2eb5aa-e406-47a4-b9f9-59c744eddff1" CvElementArea="1142, 580, 240, 67" CvType="InputBox" DesignTimeRectangle="1146, 581, 235, 63" DesignTimeScaleFactor="1.75" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl name='PegaGadget1Ifr' tag='IFRAME' /&gt;&lt;webctrl tag='SELECT' type='' class='standard' aaname='Please confirm you now wish to produce the results letter.' /&gt;" Guid="b2f18108-5ada-4ca5-9115-7cfdaf4522f9" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='Composite_H1LMBI7NJHZMIAPJ9AGDN65LVPB4Y491DA' title='Animal Health Portal' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="8b2eb5aa-e406-47a4-b9f9-59c744eddff1" CvTextArea="68, 600, 666, 24" CvTextArgument="Please confirm you now wish to produce the results letter." CvType="Text" DesignTimeRectangle="71, 597, 1075, 31" ElementType="Text" FuzzySelectorArgument="&lt;webctrl name='PegaGadget1Ifr' tag='IFRAME' /&gt;&lt;webctrl aaname='Please confirm you now wish to produce the results letter.' parentid='RULE_KEY' tag='LABEL' type='' class='field-caption dataLabelForWrite icon-required ' check:innerText='Please confirm you now wish to produce the results letter.' /&gt;" Guid="eb9273ec-b8cf-48af-a740-35f654f938cd" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2cab276ebcc0233cbe488d6e3ba6a156.png" xmlns="">0iqqPdejw9EKRYu177pZqKA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

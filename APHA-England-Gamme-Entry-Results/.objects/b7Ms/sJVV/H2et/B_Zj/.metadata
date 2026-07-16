@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Find Work",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "B_Zj2fUSDEq2OE1j8lg95w",
+  "Reference": "u70FNKxx7EOHPBwkfez66Q/B_Zj2fUSDEq2OE1j8lg95w",
+  "ParentRef": "u70FNKxx7EOHPBwkfez66Q/H2etQC9NGUymkArqFofkgw",
+  "Created": "2026-06-08T08:25:11.5304204Z",
+  "Updated": "2026-06-08T08:25:11.5304204Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

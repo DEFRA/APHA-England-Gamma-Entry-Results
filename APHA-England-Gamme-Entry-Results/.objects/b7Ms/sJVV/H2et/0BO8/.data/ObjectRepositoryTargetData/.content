@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="TKHIQ0YsUkiNRojJYyzDIg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="t2.services.demeter.zeus.gsi.gov.uk/prweb/PRWebLDAP3/app/AnimalHealth/E0f4wlAkcclA3PWutqEKfwQm_7vfKPJV*/!STANDARD" CVScreenId="63bc58ea-3cf5-45c9-8773-4b082f4898ff" CvElementArea="66, 1239, 179, 62" CvTextArea="110, 1256, 92, 28" CvTextArgument="Submit" CvType="Button" DesignTimeRectangle="71, 1242, 172, 56" DesignTimeScaleFactor="1.75" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='PegaGadget1Ifr' tag='IFRAME' /&gt;&lt;webctrl name='pyCaseActionAreaButtons_pyWorkPage_10' tag='BUTTON' type='button' class='Strong pzhc pzbutton' aaname='Click here to submit the action' check:innerText='Submit' /&gt;" Guid="38222110-f454-4c98-a280-9968659e7fd5" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Animal Health Portal' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="63bc58ea-3cf5-45c9-8773-4b082f4898ff" CvTextArea="92, 1146, 217, 26" CvTextArgument="Select Workbasket" CvType="Text" DesignTimeRectangle="96, 1144, 704, 31" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='PegaGadget1Ifr' tag='IFRAME' /&gt;&lt;webctrl aaname='Select Workbasket' parentid='EXPAND-OUTERFRAME' tag='LABEL' type='' class='field-caption dataLabelForWrite icon-required ' check:innerText='Select Workbasket' /&gt;" Guid="f5f0e0ff-bf6d-49b1-9729-33b17d3d848b" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="615eeddd4ad36f15eaa59d54e0d16579.png" xmlns="">07u6il2EvM02vW5_AMeCkfw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

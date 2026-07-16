@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="9df_7T6p9km1kLk3aBvzPg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="t2.services.demeter.zeus.gsi.gov.uk/prweb/PRWebLDAP3/app/AnimalHealth/E0f4wlAkcclA3PWutqEKfwQm_7vfKPJV*/!STANDARD" CVScreenId="b28552d6-dc64-4f98-9ffe-10e092bc3b75" CvElementArea="803, 728, 765, 67" CvType="InputBox" DesignTimeRectangle="805, 730, 764, 63" DesignTimeScaleFactor="1.75" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl id='PegaGadget1Ifr' tag='IFRAME' /&gt;&lt;webctrl name='$PpyWorkPage$ptransferReason' tag='SELECT' type='' class='' aaname='' /&gt;" Guid="2b38fcf6-1ae3-4410-85fb-c366ebf02326" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Animal Health Portal' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b28552d6-dc64-4f98-9ffe-10e092bc3b75" CvTextArea="66, 750, 188, 24" CvTextArgument="Transfer Reason" CvType="Text" DesignTimeRectangle="69, 746, 736, 31" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='PegaGadget1Ifr' tag='IFRAME' /&gt;&lt;webctrl aaname='Transfer Reason' parentid='RULE_KEY' tag='LABEL' type='' class='field-caption dataLabelForWrite' check:innerText='Transfer Reason' /&gt;" Guid="d586b7e1-602c-4b9a-8898-89b75f30db53" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="6c61109db796a057e89f25d2e3de43d3.png" xmlns="">0Uc2tN2laV0ia4RcnpsCscg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

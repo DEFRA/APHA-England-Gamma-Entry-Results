@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Edge Animal Health Portal",
+  "Type": "App",
+  "Id": "b7MsfMbjSEe9rD0LxpAfhA",
+  "Reference": "u70FNKxx7EOHPBwkfez66Q/b7MsfMbjSEe9rD0LxpAfhA",
+  "Created": "2026-06-08T08:23:31.9798984Z",
+  "Updated": "2026-06-08T08:23:31.9798984Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

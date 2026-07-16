@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="MhFjX4jwEUePO24nrr6P7w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="t2.services.demeter.zeus.gsi.gov.uk/prweb/PRWebLDAP3/app/AnimalHealth/E0f4wlAkcclA3PWutqEKfwQm_7vfKPJV*/!STANDARD" CVScreenId="c3cac0d1-92ac-4144-80dc-ffcdc5c87062" CvElementArea="832, 1147, 45, 46" CvTextArea="890, 1158, 115, 31" CvTextArgument="Resample" CvType="RadioButton" DesignTimeRectangle="837, 1143, 383, 53" DesignTimeScaleFactor="1.75" ElementType="Text" FuzzySelectorArgument="&lt;webctrl name='PegaGadget1Ifr' tag='IFRAME' /&gt;&lt;webctrl aria-role='presentation' parentid='RULE_KEY' tag='TABLE' /&gt;&lt;webctrl aaname='Resample' parentid='RULE_KEY' type='' tag='LABEL' class='rb_ rb_standard radioLabel' check:innerText='Resample' /&gt;" Guid="2fdad274-9896-4d16-a0f8-e37c00637e12" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='Composite_HWRNDW49P7IFMVYY76YDSV5HKP2ITLJ7LA' title='Animal Health Portal' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c3cac0d1-92ac-4144-80dc-ffcdc5c87062" CvElementArea="447, 1146, 47, 47" CvTextArea="507, 1158, 105, 24" CvTextArgument="Part Test" CvType="RadioButton" DesignTimeRectangle="453, 1143, 384, 53" ElementType="Text" FuzzySelectorArgument="&lt;webctrl name='PegaGadget1Ifr' tag='IFRAME' /&gt;&lt;webctrl aria-role='presentation' parentid='RULE_KEY' tag='TABLE' /&gt;&lt;webctrl aaname='Part Test' parentid='RULE_KEY' type='' tag='LABEL' class='rb_ rb_standard radioLabel' check:innerText='Part Test' /&gt;" Guid="0bd70517-40d9-4bfb-8d38-075d156efc3a" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="5ca65611890c008a230676216c66f9b8.png" xmlns="">0p0sxwVLXokye9rumEvvMqQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Dr8luSvRhkyY4OK0Ala6Yg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="t2.services.demeter.zeus.gsi.gov.uk/prweb/PRWebLDAP3/app/AnimalHealth/E0f4wlAkcclA3PWutqEKfwQm_7vfKPJV*/!STANDARD" CVScreenId="b9ef46d8-15f9-48c5-9058-ff60b8b6497a" CvElementArea="61, 775, 45, 47" CvTextArea="66, 782, 35, 33" CvType="Icon" DesignTimeRectangle="69, 775, 32, 46" DesignTimeScaleFactor="1.75" FuzzySelectorArgument="&lt;webctrl name='PegaGadget1Ifr' tag='IFRAME' /&gt;&lt;webctrl aria-role='presentation' tag='TABLE' /&gt;&lt;webctrl type='' tag='A' class='iconInsert' aaname='Add a row ' /&gt;" Guid="552890f0-5d5c-4e19-8ccf-589c4a7f2f8a" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACQAAAAyCAYAAAA0j3keAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAGdYAABnWARjRyu0AAAC2SURBVFhH7dVBCkVQGIbhu0BbUNZhJvuQmXXIigyUTL7bCd3k5O2SGHxv/SN0nnNK56OXZRBlEGUQZRBlEGUQdQk0jlLbSk0zT9dJ07Q8PNklUN9LeS4lyTxFIQ3D8vBkBlEGUQZRBlEGURtQuIfCfbTeTTRVJaXpD5RlUl3H341N7O7bgMLuwi7XBe6e2InuQGUZ//iOCWsh6FUn9G/+7SmDKIMogyiDKIOeyCDKIMogyqDjpC/hCQbeRG7DrgAAAABJRU5ErkJggg==" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='Composite_HD6U1B3QTVVYP3LCU82YIW3T5M41JQGUKA' title='Animal Health Portal' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b9ef46d8-15f9-48c5-9058-ff60b8b6497a" CvTextArea="66, 782, 35, 33" CvTextArgument="+" CvType="Text" DesignTimeRectangle="69, 775, 1186, 46" FuzzySelectorArgument="&lt;webctrl name='PegaGadget1Ifr' tag='IFRAME' /&gt;&lt;webctrl aria-role='presentation' tag='TABLE' /&gt;&lt;webctrl type='' tag='TD' class='dataValueWrite' aaname='' /&gt;" Guid="8706e881-297e-4c58-b85b-d7cf45ce08f4" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b085a49fd187da63c977d0b32ab3d621.png" xmlns="">0trPv15oPREaJo-E0Ze_hlA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

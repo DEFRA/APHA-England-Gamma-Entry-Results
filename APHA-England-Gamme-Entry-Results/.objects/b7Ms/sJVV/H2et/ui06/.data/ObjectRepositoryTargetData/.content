@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="K3sRuZ1Rz0mRn4d_E6tRAA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="t2.services.demeter.zeus.gsi.gov.uk/prweb/PRWebLDAP3/app/AnimalHealth/E0f4wlAkcclA3PWutqEKfwQm_7vfKPJV*/!STANDARD" DesignTimeRectangle="798, 845, 308, 63" DesignTimeScaleFactor="1.75" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl name='PegaGadget2Ifr' tag='IFRAME' /&gt;&lt;webctrl aria-role='presentation' parentid='RULE_KEY' tag='TABLE' /&gt;&lt;webctrl type='text' tag='INPUT' class='inactvDtTmTxt' aaname='Arranged Date' /&gt;" Guid="16872283-01d2-44c8-80a3-72d4ecc05229" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Animal Health Portal' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="57d9ac2e-2888-4325-b33a-7d3f649b1387" CvTextArea="486, 867, 169, 29" CvTextArgument="Arranged Date" CvType="Text" DesignTimeRectangle="489, 865, 309, 32" ElementType="Text" FuzzySelectorArgument="&lt;webctrl name='PegaGadget2Ifr' tag='IFRAME' /&gt;&lt;webctrl aria-role='presentation' parentid='RULE_KEY' tag='TABLE' /&gt;&lt;webctrl aaname='Arranged Date' type='' tag='LABEL' class='field-caption dataLabelForWrite' check:innerText='Arranged Date' /&gt;" Guid="180e0681-7a68-403a-9e2e-d2150ad693bf" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="038cafc1ff9ccb45f2d3b7bdb2382227.png" xmlns="">0dicCEWM6zEqWk1zf5o2nPw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

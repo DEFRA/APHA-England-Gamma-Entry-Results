@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Assigned To Richard Jo…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "bEhFEjSQF0KIIU4PVqWl7Q",
+  "Reference": "u70FNKxx7EOHPBwkfez66Q/bEhFEjSQF0KIIU4PVqWl7Q",
+  "ParentRef": "u70FNKxx7EOHPBwkfez66Q/H2etQC9NGUymkArqFofkgw",
+  "Created": "2026-06-08T08:30:52.5215498Z",
+  "Updated": "2026-06-08T08:30:52.5215498Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

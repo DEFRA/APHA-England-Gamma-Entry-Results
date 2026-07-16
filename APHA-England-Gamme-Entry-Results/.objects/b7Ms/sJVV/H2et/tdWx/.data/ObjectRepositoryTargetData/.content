@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="F4EabyPuukymgYyK-veKUQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="t2.services.demeter.zeus.gsi.gov.uk/prweb/PRWebLDAP3/app/AnimalHealth/E0f4wlAkcclA3PWutqEKfwQm_7vfKPJV*/!STANDARD" CVScreenId="75ef1515-c86c-4965-9a71-009adb2e2410" CvTextArea="101, 2056, 113, 26" CvTextArgument="Add Note" CvType="Text" DesignTimeRectangle="105, 2052, 108, 33" DesignTimeScaleFactor="1.75" ElementType="Text" FuzzySelectorArgument="&lt;webctrl name='PegaGadget1Ifr' tag='IFRAME' /&gt;&lt;webctrl parentid='RULE_KEY' tag='TABLE' /&gt;&lt;webctrl type='' tag='A' class='' aaname='Add Note' check:innerText='Add Note' /&gt;" Guid="051a6865-984e-4c92-9e45-20eb2daeb49d" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='Composite_HQTIE1M9S206OZXX67NG2U6MATCKYB7SMA' title='Animal Health Portal' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="75ef1515-c86c-4965-9a71-009adb2e2410" CvTextArea="101, 1994, 77, 24" CvTextArgument="Notes" CvType="Text" DesignTimeRectangle="104, 1989, 73, 37" ElementType="Text" FuzzySelectorArgument="&lt;webctrl name='PegaGadget1Ifr' tag='IFRAME' /&gt;&lt;webctrl id='headerlabel2164' tag='H4' type='' class='header-title' aaname='Notes' check:innerText='Notes' /&gt;" Guid="034f0e10-5eab-4ea2-acb9-949ef40d644b" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4e8c6357b6672d418cf168c59022abb1.png" xmlns="">0BIO1pFsYc0eH0PrCjwLaXA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

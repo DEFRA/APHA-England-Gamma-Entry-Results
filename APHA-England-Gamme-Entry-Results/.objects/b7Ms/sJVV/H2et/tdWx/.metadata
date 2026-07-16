@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Add Note",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "tdWxfARPC06brI7OCEHqpQ",
+  "Reference": "u70FNKxx7EOHPBwkfez66Q/tdWxfARPC06brI7OCEHqpQ",
+  "ParentRef": "u70FNKxx7EOHPBwkfez66Q/H2etQC9NGUymkArqFofkgw",
+  "Created": "2026-06-16T12:06:27.5040675Z",
+  "Updated": "2026-06-16T12:06:27.5040675Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

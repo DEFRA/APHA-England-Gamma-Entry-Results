@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Date Samples Dispatched(1)",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "cGFtr8BbMUe5skmZWBoJ4g",
+  "Reference": "u70FNKxx7EOHPBwkfez66Q/cGFtr8BbMUe5skmZWBoJ4g",
+  "ParentRef": "u70FNKxx7EOHPBwkfez66Q/H2etQC9NGUymkArqFofkgw",
+  "Created": "2026-07-07T07:10:33.2993705Z",
+  "Updated": "2026-07-07T07:10:33.2993705Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

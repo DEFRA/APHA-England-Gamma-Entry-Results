@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="rFn6LZlj0EaLeVhuJhdZDg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="t2.services.demeter.zeus.gsi.gov.uk/prweb/PRWebLDAP3/app/AnimalHealth/E0f4wlAkcclA3PWutqEKfwQm_7vfKPJV*/!STANDARD" CVScreenId="392e00c3-b30c-46fc-a08f-aff8d650d852" CvElementArea="66, 708, 179, 62" CvTextArea="110, 724, 92, 28" CvTextArgument="Submit" CvType="Button" DesignTimeRectangle="71, 710, 172, 56" DesignTimeScaleFactor="1.75" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='PegaGadget1Ifr' tag='IFRAME' /&gt;&lt;webctrl name='pyCaseActionAreaButtons_pyWorkPage_10' tag='BUTTON' type='button' class='Strong pzhc pzbutton' aaname='Click here to submit the action' check:innerText='Submit' /&gt;" Guid="da7e70c8-0117-4e14-8c93-34a779e18c8b" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Animal Health Portal' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="392e00c3-b30c-46fc-a08f-aff8d650d852" CvTextArea="66, 603, 1020, 33" CvTextArgument="Please confirm if you wish to set the status of the Activity to &quot;Resolved-Completed&quot;" CvType="Text" DesignTimeRectangle="69, 599, 3632, 74" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='PegaGadget1Ifr' tag='IFRAME' /&gt;&lt;webctrl type='' isleaf='1' parentid='RULE_KEY' tag='DIV' class='content-item content-label item-1 flex flex-row standard_dataLabelWrite dataLabelWrite' aaname='Please confirm if you wish to set the status of the Activity to &amp;quot;Resolved-Completed&amp;quot;' check:innerText='Please confirm if you wish to set the status of the Activity to &amp;quot;Resolved-Completed&amp;quot;' /&gt;" Guid="19659235-7ca2-4c81-8f95-505fce3706d5" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="f6f110e678d17a7e8618e251dde7a8d2.png" xmlns="">0fz6UL8wADkmKRBcP5Rp8aw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

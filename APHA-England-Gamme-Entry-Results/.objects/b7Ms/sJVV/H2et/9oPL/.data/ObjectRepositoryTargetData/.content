@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="yKstoOjHl0KV36P_Yvfmlg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="t2.services.demeter.zeus.gsi.gov.uk/prweb/PRWebLDAP3/app/AnimalHealth/E0f4wlAkcclA3PWutqEKfwQm_7vfKPJV*/!STANDARD" CVScreenId="18e53e24-10dd-4a64-885d-6635b1052cef" CvElementArea="48, 1985, 34, 44" CvType="ArrowButton" DesignTimeRectangle="43, 1971, 49, 74" DesignTimeScaleFactor="1.75" FuzzySelectorArgument="&lt;webctrl name='PegaGadget1Ifr' tag='IFRAME' /&gt;&lt;webctrl type='' isleaf='1' tag='I' class='icon icon-openclose' aaname='' /&gt;" Guid="5cfbd808-42ab-402b-9f87-5583726d007a" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='Composite_HQTIE1M9S206OZXX67NG2U6MATCKYB7SMA' title='Animal Health Portal' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="18e53e24-10dd-4a64-885d-6635b1052cef" CvTextArea="101, 1994, 77, 24" CvTextArgument="Notes" CvType="Text" DesignTimeRectangle="104, 1989, 73, 37" ElementType="Text" FuzzySelectorArgument="&lt;webctrl name='PegaGadget1Ifr' tag='IFRAME' /&gt;&lt;webctrl id='headerlabel2164' tag='H4' type='' class='header-title' aaname='Notes' check:innerText='Notes' /&gt;" Guid="6fda0a0f-87f2-4b81-8ed1-45cd6b682158" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="9546301c07eed5d48cd0fe988e99f236.png" xmlns="">0rDrtqlmmLU6DYM3MxkpGHA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
