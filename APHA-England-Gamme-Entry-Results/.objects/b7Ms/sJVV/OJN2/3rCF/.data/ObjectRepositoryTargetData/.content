@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="_DLxwMz660CPlXjwGmQMXg" Reference="u70FNKxx7EOHPBwkfez66Q/3rCFBG--c0KV7fOFadcv4g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="t2.services.demeter.zeus.gsi.gov.uk/prweb/PRWebLDAP3/app/AnimalHealth/E0f4wlAkcclA3PWutqEKfwQm_7vfKPJV*/!STANDARD" CVScreenId="2b3601ae-add8-41e7-be9a-5101d04b0d93" CvElementArea="71, 1160, 44, 41" CvType="CheckBox" DesignTimeRectangle="71, 1159, 44, 42" DesignTimeScaleFactor="1.75" ElementType="CheckBox" FullSelectorArgument="&lt;webctrl name='PegaGadget1Ifr' tag='IFRAME' /&gt;&lt;webctrl id='ViewTable' tableRow='1' tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='INPUT' type='checkbox' /&gt;" Guid="1a016df7-c5de-4247-b40e-601fc4daef72" ImageBase64="" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='Composite_HZ532Y5UB9TXRY68UQPD4STKNXDVRNKIEA' title='Animal Health Portal' /&gt;" SearchSteps="Selector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="2b3601ae-add8-41e7-be9a-5101d04b0d93" CvTextArea="174, 1170, 204, 26" CvTextArgument="UK303330701642" CvType="Text" DesignTimeRectangle="177, 1167, 201, 33" ElementType="Text" FuzzySelectorArgument="&lt;webctrl name='PegaGadget1Ifr' tag='IFRAME' /&gt;&lt;webctrl id='ViewTable' tag='TABLE' /&gt;&lt;webctrl type='' tag='A' class='' aaname='UK303330701642' check:innerText='UK303330701642' /&gt;" Guid="064429d2-238b-433d-8aa2-5dba12b0b74c" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="90ad96cfa5572d1da9dafb4b6a32362b.png" xmlns="">0vD75k_nTEU2UpZf9P-KpXA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Check</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

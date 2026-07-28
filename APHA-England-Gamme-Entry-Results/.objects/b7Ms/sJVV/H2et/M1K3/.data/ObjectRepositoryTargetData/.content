@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="q8oaF-8onEC6BiOMqYIGNw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="zoGy008LhUO78WG71FuolQ" Reference="u70FNKxx7EOHPBwkfez66Q/M1K3s204wEyovINDyIfyLQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="t2.services.demeter.zeus.gsi.gov.uk/prweb/PRWebLDAP3/app/AnimalHealth/E0f4wlAkcclA3PWutqEKfwQm_7vfKPJV*/!STANDARD" CVScreenId="be551f0a-d350-43ac-a040-339abb2135d2" CvElementArea="3362, 626, 211, 61" CvTextArea="3389, 645, 157, 31" CvTextArgument="Open Activity" CvType="Button" DesignTimeRectangle="3365, 629, 208, 56" DesignTimeScaleFactor="1.75" ElementType="Button" FuzzySelectorArgument="&lt;webctrl name='PegaGadget1Ifr' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='button' tag='BUTTON' class='buttonTdButton' aaname=' Open Activity' check:innerText='Open Activity' /&gt;" Guid="68cdeba3-b050-492b-894d-af14c84ad4ff" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='Composite_H1LMBI7NJHZMIAPJ9AGDN65LVPB4Y491DA' title='Animal Health Portal' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
-      <TargetAnchorable.Anchors>
-        <scg:List x:TypeArguments="ITarget" Capacity="4">
-          <Target CVScreenId="be551f0a-d350-43ac-a040-339abb2135d2" CvTextArea="3015, 554, 201, 33" CvTextArgument="Ready to Assign:" CvType="Text" DesignTimeRectangle="3004, 516, 349, 104" FuzzySelectorArgument="&lt;webctrl name='PegaGadget1Ifr' tag='IFRAME' /&gt;&lt;webctrl id='bodyTbl_right' tag='TABLE' /&gt;&lt;webctrl id='a7' type='' tag='TH' class='standard_dataLabelRead cellCont gridCell  wrapText highlight-ele  ' aaname='' check:innerText='Ready to Assign:' /&gt;" Guid="a4b894ab-49e6-46b5-98d6-bb1828703787" SearchSteps="FuzzySelector, CV" />
-        </scg:List>
-      </TargetAnchorable.Anchors>
-      <imageRef attrName="InformativeScreenshot" originalValue="8acf466e41d0ed282cc7f6d3d03cd69d.png" xmlns="">08lwX5-n3Dku4ew24LyMGMQ</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="t2.services.demeter.zeus.gsi.gov.uk/prweb/PRWebLDAP3/app/AnimalHealth/E0f4wlAkcclA3PWutqEKfwQm_7vfKPJV*/!STANDARD" CVScreenId="933afbd8-25a6-48e4-8576-dc50d39bb670" CvElementArea="3362, 626, 211, 61" CvTextArea="3389, 645, 157, 31" CvTextArgument="Open Activity" CvType="Button" DesignTimeRectangle="3365, 629, 208, 56" DesignTimeScaleFactor="1.75" ElementType="Button" FullSelectorArgument="&lt;webctrl name='PegaGadget2Ifr' tag='IFRAME' /&gt;&lt;webctrl tableRow='2' tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='BUTTON' /&gt;" Guid="930d4550-c87f-4edb-821e-a1561bc6b457" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Animal Health Portal' /&gt;" SearchSteps="Selector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="a1a3c6129df1c56cd57f3c1646eab994.png" xmlns="">0xlZ83yX0Y0Oe5Xk2SdLHHg</imageRef>
     </TargetAnchorable>
-    <x:String x:Key="ActivityType">None</x:String>
+    <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>
 </ObjectRepositoryTargetData>
