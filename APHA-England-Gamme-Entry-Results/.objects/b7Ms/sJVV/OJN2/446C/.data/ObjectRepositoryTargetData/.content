@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="urlf5r57lEa35BhIbjbQUw" Reference="u70FNKxx7EOHPBwkfez66Q/446CqdU9RkqKWZfGFN8OlA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="t2.services.demeter.zeus.gsi.gov.uk/prweb/PRWebLDAP3/app/AnimalHealth/E0f4wlAkcclA3PWutqEKfwQm_7vfKPJV*/!STANDARD" CVScreenId="2691b7dd-6697-4cf5-9076-7d5fac184e0c" CvElementArea="71, 1266, 44, 41" CvType="CheckBox" DesignTimeRectangle="76, 1268, 37, 37" DesignTimeScaleFactor="1.75" ElementType="CheckBox" FullSelectorArgument="[string.Format(&quot;&lt;webctrl id='PegaGadget1Ifr' tag='IFRAME' /&gt;&lt;webctrl id='ViewTable' tag='TABLE' /&gt;&lt;webctrl tableRow='{0}' tag='INPUT' type='checkbox' /&gt;&quot;, intRowNumber)]" Guid="4c6c776e-40bc-4bc0-8a8c-7458622871fc" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Animal Health Portal' /&gt;" SearchSteps="Selector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="9f1393049ee7abd637872ba76f5c2643.png" xmlns="">0naZ-KQuhXk2ogKuhx8mHdg</imageRef>
+    </TargetAnchorable>
+    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="1">
+      <ObjectRepositoryVariableData IsString="False" Name="intRowNumber" />
+    </scg:List>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
