@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ZcevyIxam0S4jn7-UQFztg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="t2.services.demeter.zeus.gsi.gov.uk/prweb/PRWebLDAP3/app/AnimalHealth/E0f4wlAkcclA3PWutqEKfwQm_7vfKPJV*/!TABTHREAD1" CVScreenId="7d0d5fd3-2297-4d6b-90ef-937d64de3966" CvElementArea="191, 296, 364, 68" CvType="InputBox" DesignTimeRectangle="195, 299, 356, 63" DesignTimeScaleFactor="1.75" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aria-role='presentation' tag='TABLE' /&gt;&lt;webctrl id='cc828132' type='text' tag='INPUT' class='leftJustifyStyle' aaname='' /&gt;" Guid="af39f57b-46a9-4631-881f-2c318e31547d" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='t2.services.demeter.zeus.gsi.gov.uk/prweb/PRWebLDAP3/app/AnimalHealth/E0f4wlAkcclA3PWutqEKfwQm_7vfKPJV*/!TABTHREAD1?pyActivity=%40baseclass.pzProcessURLInWindow&amp;amp;pyPreActivity=AH-Work-.appShowNote&amp;amp;target=popup&amp;amp;portalThreadName=STANDARD&amp;amp;portalName=BackOfficePortal&amp;amp;eventSrcSection=AH-.notesListSummary&amp;amp;pzHarnessID=HID593D921BB2C9ECCF7DC4C55BDE9B58DF' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="7d0d5fd3-2297-4d6b-90ef-937d64de3966" CvTextArea="34, 325, 96, 31" CvTextArgument="Subject" CvType="Text" DesignTimeRectangle="38, 323, 91, 33" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aria-role='presentation' tag='TABLE' /&gt;&lt;webctrl type='' tag='LABEL' class='' aaname='Subject' check:innerText='Subject' /&gt;" Guid="f3fe2f30-dcd7-460e-b3c3-b4434f42ef7d" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="859278934b5d3221bd3df16dff194904.png" xmlns="">0UqPrMkXRgk2EMmey4hzKHg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

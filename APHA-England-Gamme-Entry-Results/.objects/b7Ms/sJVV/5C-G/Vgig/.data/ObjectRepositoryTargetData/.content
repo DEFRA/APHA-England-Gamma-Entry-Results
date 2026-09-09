@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="8Bs8yya6i0GPlnkL5-D6ww" Reference="u70FNKxx7EOHPBwkfez66Q/VgigT--8Ak-0FgJiVpLGiA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="fNP8BxhAmkeSwY7X3LMc1Q" Reference="u70FNKxx7EOHPBwkfez66Q/VgigT--8Ak-0FgJiVpLGiA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
     <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="t2.services.demeter.zeus.gsi.gov.uk/prweb/PRWebLDAP3/app/AnimalHealth/E0f4wlAkcclA3PWutqEKfwQm_7vfKPJV*/!TABTHREAD1" CVScreenId="e68447e6-ad0d-4bc9-867b-41c903cb1f70" CvElementArea="192, 217, 402, 65" CvType="InputBox" DesignTimeRectangle="195, 218, 399, 63" DesignTimeScaleFactor="1.75" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl aria-role='presentation' tag='TABLE' /&gt;&lt;webctrl type='' tag='SELECT' class='' aaname='' /&gt;" Guid="1eb442c6-08fa-46ce-a5c5-abbab9c2b4ab" ScopeSelectorArgument="&lt;html app='msedge.exe' title='*prweb/PRWebLDAP3/app/AnimalHealth*' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
       <TargetAnchorable.Anchors>
@@ -7,7 +7,7 @@
           <Target CVScreenId="e68447e6-ad0d-4bc9-867b-41c903cb1f70" CvTextArea="36, 246, 113, 31" CvTextArgument="Category" CvType="Text" DesignTimeRectangle="38, 242, 110, 33" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aria-role='presentation' tag='TABLE' /&gt;&lt;webctrl type='' tag='LABEL' class='' aaname='Category' check:innerText='Category' /&gt;" Guid="e4bae544-310a-4dfa-b1f7-5884dcc070ab" SearchSteps="FuzzySelector, CV" />
         </scg:List>
       </TargetAnchorable.Anchors>
-      <imageRef attrName="InformativeScreenshot" originalValue="feea149dfee19c47654145baf1645d3e.png" xmlns="">0_G7jBLlTvk2z7B1l7hCHCA</imageRef>
+      <imageRef attrName="InformativeScreenshot" originalValue="feea149dfee19c47654145baf1645d3e.png" xmlns="">0MFkLbQXxmEaOSipdXKM3nQ</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">SelectItem</x:String>
   </ObjectRepositoryTargetData.Data>

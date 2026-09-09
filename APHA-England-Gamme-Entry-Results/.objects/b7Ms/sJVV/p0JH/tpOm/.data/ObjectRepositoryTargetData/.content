@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="e6OlZUKTjU6qocVUbmGMmA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="t2.services.demeter.zeus.gsi.gov.uk/prweb/PRWebLDAP3/app/AnimalHealth/E0f4wlAkcclA3PWutqEKfwQm_7vfKPJV*/!TABTHREAD1" CVScreenId="5706781d-7219-4109-a95a-46db1f155e91" CvElementArea="192, 217, 402, 65" CvType="InputBox" DesignTimeRectangle="195, 218, 399, 63" DesignTimeScaleFactor="1.75" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl aria-role='presentation' tag='TABLE' /&gt;&lt;webctrl type='' tag='SELECT' class='' aaname='' /&gt;" Guid="6937e43e-7507-49c6-af2d-66098b119b86" ScopeSelectorArgument="&lt;html app='msedge.exe' title='t2.services.demeter.zeus.gsi.gov.uk/prweb/PRWebLDAP3/app/AnimalHealth/E0f4wlAkcclA3PWutqEKfwQm_7vfKPJV*/!TABTHREAD1?pyActivity=%40baseclass.pzProcessURLInWindow&amp;amp;pyPreActivity=AH-Work-.appShowNote&amp;amp;target=popup&amp;amp;portalThreadName=STANDARD&amp;amp;portalName=BackOfficePortal&amp;amp;eventSrcSection=AH-.notesListSummary&amp;amp;pzHarnessID=HID593D921BB2C9ECCF7DC4C55BDE9B58DF' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="5706781d-7219-4109-a95a-46db1f155e91" CvTextArea="36, 246, 113, 31" CvTextArgument="Category" CvType="Text" DesignTimeRectangle="38, 242, 110, 33" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aria-role='presentation' tag='TABLE' /&gt;&lt;webctrl type='' tag='LABEL' class='' aaname='Category' check:innerText='Category' /&gt;" Guid="b94643e3-765e-4060-b839-4f20f11b3d93" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="1e77e38648c73da8e4f36968e963850a.png" xmlns="">0tA3I4v4UIEG83Br3oM0SPA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

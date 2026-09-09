@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="iju04nVbz0C1R1UHBWU2iw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="t2.services.demeter.zeus.gsi.gov.uk/prweb/PRWebLDAP3/app/AnimalHealth/E0f4wlAkcclA3PWutqEKfwQm_7vfKPJV*/!TABTHREAD1" CVScreenId="3fd4fa51-81d9-445a-a99e-10763041ff00" CvElementArea="195, 559, 248, 58" CvTextArea="276, 574, 85, 26" CvTextArgument="Submit" CvType="Button" DesignTimeRectangle="197, 561, 245, 56" DesignTimeScaleFactor="1.75" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl class='buttonMiddle' type='' tag='SPAN' aaname='                     &amp;#x9;&amp;#x9;                 &amp;#x9;&amp;#x9;' check:innerText='Submit' /&gt;" Guid="e2fb49b3-e114-4a1d-a6d2-86728b9ce53a" ScopeSelectorArgument="&lt;html app='msedge.exe' title='t2.services.demeter.zeus.gsi.gov.uk/prweb/PRWebLDAP3/app/AnimalHealth/E0f4wlAkcclA3PWutqEKfwQm_7vfKPJV*/!TABTHREAD1?pyActivity=%40baseclass.pzProcessURLInWindow&amp;amp;pyPreActivity=AH-Work-.appShowNote&amp;amp;target=popup&amp;amp;portalThreadName=STANDARD&amp;amp;portalName=BackOfficePortal&amp;amp;eventSrcSection=AH-.notesListSummary&amp;amp;pzHarnessID=HID593D921BB2C9ECCF7DC4C55BDE9B58DF' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="3fd4fa51-81d9-445a-a99e-10763041ff00" CvElementArea="457, 560, 248, 57" CvTextArea="540, 574, 80, 26" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="460, 561, 245, 56" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl class='buttonMiddle' parentid='EXPAND-OUTERFRAME' type='' tag='SPAN' aaname='                                                                  ' check:innerText='Cancel' /&gt;" Guid="e2122a2e-95b6-4c9c-a409-5028b83a9043" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="af218bfc012bc41b3ce48f783e34e83d.png" xmlns="">0L1gLopEvqkyhzyj3zvwgmA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

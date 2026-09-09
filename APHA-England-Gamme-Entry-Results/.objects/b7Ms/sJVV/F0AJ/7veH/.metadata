@@ -1,0 +1,14 @@
+﻿{
+  "Name": "TESTSSAMPLESPMS",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "7veHux1iCU66AXFReMGzgg",
+  "Reference": "u70FNKxx7EOHPBwkfez66Q/7veHux1iCU66AXFReMGzgg",
+  "ParentRef": "u70FNKxx7EOHPBwkfez66Q/F0AJSqlKn0yQ_7nFKBVvAA",
+  "Created": "2026-08-20T11:48:31.1287545Z",
+  "Updated": "2026-08-20T11:48:31.1287545Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
