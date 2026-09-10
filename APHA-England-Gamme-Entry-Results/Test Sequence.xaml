@@ -75,6 +75,7 @@
       <x:String>UiPath.Activities.System.Collections</x:String>
       <x:String>UiPath.Form.Activities</x:String>
       <x:String>RestSharp</x:String>
+      <x:String>Microsoft.VisualBasic.CompilerServices</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -185,22 +186,25 @@
       <AssemblyReference>System.Diagnostics.TextWriterTraceListener</AssemblyReference>
       <AssemblyReference>RestSharp</AssemblyReference>
       <AssemblyReference>netstandard</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Test_Sequence" sap:VirtualizedContainerService.HintSize="926.8571428571429,2217.1428571428573" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Test_Sequence" sap:VirtualizedContainerService.HintSize="450.2857142857143,1429.142857142857" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="dtPositiveEarTags" />
       <Variable x:TypeArguments="sd:DataTable" Name="dtNegativeEarTags" />
       <Variable x:TypeArguments="sd:DataTable" Name="dtReSampleEarTags" />
       <Variable x:TypeArguments="sd:DataTable" Name="dtRejectedEarTags" />
       <Variable x:TypeArguments="sd:DataTable" Name="dtEarTags" />
+      <Variable x:TypeArguments="x:Boolean" Name="boolResampleRequired" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="553.1428571428571,86.28571428571429" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="450.2857142857143,86.28571428571429" sap2010:WorkflowViewState.IdRef="CommentOut_1">
       <ui:CommentOut.Body>
         <Sequence sap:VirtualizedContainerService.HintSize="537.1428571428571,1148.5714285714287" sap2010:WorkflowViewState.IdRef="Sequence_25">
           <sap:WorkflowViewStateService.ViewState>
@@ -513,7 +517,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:CommentOut>
-    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="553.1428571428571,86.28571428571429" sap2010:WorkflowViewState.IdRef="CommentOut_7">
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="450.2857142857143,86.28571428571429" sap2010:WorkflowViewState.IdRef="CommentOut_7">
       <ui:CommentOut.Body>
         <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="484.57142857142856,154.28571428571428" sap2010:WorkflowViewState.IdRef="Sequence_48">
           <sap:WorkflowViewStateService.ViewState>
@@ -638,7 +642,7 @@ FirstOrDefault(Function(r) r("field_4").ToString.Trim = strWSANumber.Trim)]</InA
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:CommentOut>
-    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="553.1428571428571,86.28571428571429" sap2010:WorkflowViewState.IdRef="CommentOut_22">
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="450.2857142857143,86.28571428571429" sap2010:WorkflowViewState.IdRef="CommentOut_22">
       <ui:CommentOut.Body>
         <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="484.57142857142856,154.28571428571428" sap2010:WorkflowViewState.IdRef="Sequence_150">
           <sap:WorkflowViewStateService.ViewState>
@@ -1244,7 +1248,7 @@ FirstOrDefault(Function(r) r("field_4").ToString.Trim = strWSANumber.Trim)]</InA
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:CommentOut>
-    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="553.1428571428571,86.28571428571429" sap2010:WorkflowViewState.IdRef="CommentOut_12">
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="450.2857142857143,86.28571428571429" sap2010:WorkflowViewState.IdRef="CommentOut_12">
       <ui:CommentOut.Body>
         <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="587.4285714285714,1525.7142857142858" sap2010:WorkflowViewState.IdRef="Sequence_70">
           <sap:WorkflowViewStateService.ViewState>
@@ -1355,7 +1359,7 @@ FirstOrDefault(Function(r) r("field_4").ToString.Trim = strWSANumber.Trim)]</InA
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:CommentOut>
-    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="553.1428571428571,86.28571428571429" sap2010:WorkflowViewState.IdRef="CommentOut_17">
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="450.2857142857143,86.28571428571429" sap2010:WorkflowViewState.IdRef="CommentOut_17">
       <ui:CommentOut.Body>
         <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="640,4482.285714285715" sap2010:WorkflowViewState.IdRef="Sequence_116">
           <sap:WorkflowViewStateService.ViewState>
@@ -1602,7 +1606,7 @@ FirstOrDefault(Function(r) r("field_4").ToString.Trim = strWSANumber.Trim)]</InA
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:CommentOut>
-    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="553.1428571428571,86.28571428571429" sap2010:WorkflowViewState.IdRef="CommentOut_20">
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="450.2857142857143,86.28571428571429" sap2010:WorkflowViewState.IdRef="CommentOut_20">
       <ui:CommentOut.Body>
         <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="416,137.14285714285714" sap2010:WorkflowViewState.IdRef="Sequence_145">
           <sap:WorkflowViewStateService.ViewState>
@@ -2287,7 +2291,7 @@ FirstOrDefault(Function(r) r("field_4").ToString.Trim = strWSANumber.Trim)]</InA
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:CommentOut>
-    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="553.1428571428571,86.28571428571429" sap2010:WorkflowViewState.IdRef="CommentOut_18">
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="450.2857142857143,86.28571428571429" sap2010:WorkflowViewState.IdRef="CommentOut_18">
       <ui:CommentOut.Body>
         <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="484.57142857142856,154.28571428571428" sap2010:WorkflowViewState.IdRef="Sequence_143">
           <sap:WorkflowViewStateService.ViewState>
@@ -2545,7 +2549,7 @@ FirstOrDefault(Function(r) r("field_4").ToString.Trim = strWSANumber.Trim)]</InA
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:CommentOut>
-    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="553.1428571428571,86.28571428571429" sap2010:WorkflowViewState.IdRef="CommentOut_23">
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="450.2857142857143,86.28571428571429" sap2010:WorkflowViewState.IdRef="CommentOut_23">
       <ui:CommentOut.Body>
         <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="605.7142857142857,2298.8571428571427" sap2010:WorkflowViewState.IdRef="Sequence_154">
           <sap:WorkflowViewStateService.ViewState>
@@ -2725,7 +2729,7 @@ FirstOrDefault(Function(r) r("field_4").ToString.Trim = strWSANumber.Trim)]</InA
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:CommentOut>
-    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="553.1428571428571,86.28571428571429" sap2010:WorkflowViewState.IdRef="CommentOut_25">
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="450.2857142857143,86.28571428571429" sap2010:WorkflowViewState.IdRef="CommentOut_25">
       <ui:CommentOut.Body>
         <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="416,108" sap2010:WorkflowViewState.IdRef="Sequence_167">
           <sap:WorkflowViewStateService.ViewState>
@@ -2893,7 +2897,7 @@ FirstOrDefault(Function(r) r("field_4").ToString.Trim = strWSANumber.Trim)]</InA
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:CommentOut>
-    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="553.1428571428571,86.28571428571429" sap2010:WorkflowViewState.IdRef="CommentOut_26">
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="450.2857142857143,86.28571428571429" sap2010:WorkflowViewState.IdRef="CommentOut_26">
       <ui:CommentOut.Body>
         <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="416,108" sap2010:WorkflowViewState.IdRef="Sequence_180">
           <sap:WorkflowViewStateService.ViewState>
@@ -3069,44 +3073,18 @@ FirstOrDefault(Function(r) r("field_4").ToString.Trim = strWSANumber.Trim)]</InA
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:CommentOut>
-    <Sequence DisplayName="Extract information from Email " sap:VirtualizedContainerService.HintSize="553.1428571428571,890.2857142857143" sap2010:WorkflowViewState.IdRef="Sequence_171">
-      <Sequence.Variables>
-        <Variable x:TypeArguments="x:String" Name="strExtractedText" />
-        <Variable x:TypeArguments="sd1:Image" Name="Image" />
-      </Sequence.Variables>
-      <sap:WorkflowViewStateService.ViewState>
-        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-          <x:Boolean x:Key="IsPinned">False</x:Boolean>
-        </scg:Dictionary>
-      </sap:WorkflowViewStateService.ViewState>
-      <ui:ReadPDFText FileName="{x:Null}" PreserveFormatting="{x:Null}" DisplayName="Read PDF Text" sap:VirtualizedContainerService.HintSize="518.8571428571429,124.57142857142857" sap2010:WorkflowViewState.IdRef="ReadPDFText_3" Range="All" ResourceFile="[LocalResource.FromPath(&quot;C:\\Users\\rj000088\\Downloads\\INFG-GCA-26-000634.pdf&quot;)]" Text="[strExtractedText]">
-        <ui:ReadPDFText.Item>
-          <upap:ItemArgument x:TypeArguments="upr:IResource" FileName="{x:Null}" ResourceFile="[LocalResource.FromPath(&quot;C:\\Users\\rj000088\\Downloads\\INFG-GCA-26-000634.pdf&quot;)]" />
-        </ui:ReadPDFText.Item>
-      </ui:ReadPDFText>
-      <Sequence DisplayName="Extract Meta Data" sap:VirtualizedContainerService.HintSize="518.8571428571429,673.7142857142857" sap2010:WorkflowViewState.IdRef="Sequence_172">
-        <Sequence.Variables>
-          <Variable x:TypeArguments="x:String" Name="strAPHALab" />
-          <Variable x:TypeArguments="s:DateTime" Name="dtDateCollected" />
-        </Sequence.Variables>
-        <sap:WorkflowViewStateService.ViewState>
-          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-            <x:Boolean x:Key="IsPinned">False</x:Boolean>
-          </scg:Dictionary>
-        </sap:WorkflowViewStateService.ViewState>
-        <Sequence DisplayName="Create Eartag Tables" sap:VirtualizedContainerService.HintSize="484.57142857142856,590.8571428571429" sap2010:WorkflowViewState.IdRef="Sequence_186">
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="450.2857142857143,86.28571428571429" sap2010:WorkflowViewState.IdRef="CommentOut_28">
+      <ui:CommentOut.Body>
+        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="484.57142857142856,154.28571428571428" sap2010:WorkflowViewState.IdRef="Sequence_189">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-              <x:Boolean x:Key="IsPinned">False</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <Sequence DisplayName="Build Positive EarTag table" sap:VirtualizedContainerService.HintSize="450.2857142857143,103.42857142857143" sap2010:WorkflowViewState.IdRef="Sequence_173">
+          <Sequence DisplayName="Extract information from Email " sap:VirtualizedContainerService.HintSize="450.2857142857143,94.28571428571429" sap2010:WorkflowViewState.IdRef="Sequence_171">
             <Sequence.Variables>
-              <Variable x:TypeArguments="scg:List(x:String)" Name="listEarTags" />
-              <Variable x:TypeArguments="str:MatchCollection" Name="iePositiveEarTags" />
+              <Variable x:TypeArguments="x:String" Name="strExtractedText" />
+              <Variable x:TypeArguments="sd1:Image" Name="Image" />
             </Sequence.Variables>
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -3114,375 +3092,624 @@ FirstOrDefault(Function(r) r("field_4").ToString.Trim = strWSANumber.Trim)]</InA
                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <Assign DisplayName="Create dtPositiveEarTags" sap:VirtualizedContainerService.HintSize="502.85714285714283,117.14285714285714" sap2010:WorkflowViewState.IdRef="Assign_126">
-              <Assign.To>
-                <OutArgument x:TypeArguments="sd:DataTable">[dtPositiveEarTags]</OutArgument>
-              </Assign.To>
-              <Assign.Value>
-                <InArgument x:TypeArguments="sd:DataTable">[New DataTable()]</InArgument>
-              </Assign.Value>
-            </Assign>
-            <InvokeMethod DisplayName="Invoke Method" sap:VirtualizedContainerService.HintSize="502.85714285714283,172" sap2010:WorkflowViewState.IdRef="InvokeMethod_27" MethodName="Add">
-              <InvokeMethod.TargetObject>
-                <InArgument x:TypeArguments="sd:DataColumnCollection">[dtPositiveEarTags.Columns]</InArgument>
-              </InvokeMethod.TargetObject>
-              <InArgument x:TypeArguments="x:String">EarTag</InArgument>
-            </InvokeMethod>
-            <Assign DisplayName="Assign iePositiveEarTags" sap:VirtualizedContainerService.HintSize="502.85714285714283,117.71428571428571" sap2010:WorkflowViewState.IdRef="Assign_127">
-              <Assign.To>
-                <OutArgument x:TypeArguments="str:MatchCollection">[iePositiveEarTags]</OutArgument>
-              </Assign.To>
-              <Assign.Value>
-                <InArgument x:TypeArguments="str:MatchCollection" xml:space="preserve">[System.Text.RegularExpressions.Regex.Matches(strExtractedText,
+            <ui:ReadPDFText FileName="{x:Null}" PreserveFormatting="{x:Null}" DisplayName="Read PDF Text" sap:VirtualizedContainerService.HintSize="518.8571428571429,124.57142857142857" sap2010:WorkflowViewState.IdRef="ReadPDFText_3" Range="All" ResourceFile="[LocalResource.FromPath(&quot;C:\\Users\\rj000088\\Downloads\\INFG-GCA-26-000634.pdf&quot;)]" Text="[strExtractedText]">
+              <ui:ReadPDFText.Item>
+                <upap:ItemArgument x:TypeArguments="upr:IResource" FileName="{x:Null}" ResourceFile="[LocalResource.FromPath(&quot;C:\\Users\\rj000088\\Downloads\\INFG-GCA-26-000634.pdf&quot;)]" />
+              </ui:ReadPDFText.Item>
+            </ui:ReadPDFText>
+            <Sequence DisplayName="Extract Meta Data" sap:VirtualizedContainerService.HintSize="518.8571428571429,488.57142857142856" sap2010:WorkflowViewState.IdRef="Sequence_172">
+              <Sequence.Variables>
+                <Variable x:TypeArguments="x:String" Name="strAPHALab" />
+                <Variable x:TypeArguments="s:DateTime" Name="dtDateCollected" />
+              </Sequence.Variables>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <Sequence DisplayName="Create Eartag Tables" sap:VirtualizedContainerService.HintSize="484.57142857142856,405.7142857142857" sap2010:WorkflowViewState.IdRef="Sequence_186">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <Sequence DisplayName="Build Positive EarTag table" sap:VirtualizedContainerService.HintSize="450.2857142857143,57.142857142857146" sap2010:WorkflowViewState.IdRef="Sequence_173">
+                  <Sequence.Variables>
+                    <Variable x:TypeArguments="scg:List(x:String)" Name="listEarTags" />
+                    <Variable x:TypeArguments="str:MatchCollection" Name="iePositiveEarTags" />
+                  </Sequence.Variables>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <Assign DisplayName="Create dtPositiveEarTags" sap:VirtualizedContainerService.HintSize="502.85714285714283,117.14285714285714" sap2010:WorkflowViewState.IdRef="Assign_126">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="sd:DataTable">[dtPositiveEarTags]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="sd:DataTable">[New DataTable()]</InArgument>
+                    </Assign.Value>
+                  </Assign>
+                  <InvokeMethod DisplayName="Invoke Method" sap:VirtualizedContainerService.HintSize="502.85714285714283,172" sap2010:WorkflowViewState.IdRef="InvokeMethod_27" MethodName="Add">
+                    <InvokeMethod.TargetObject>
+                      <InArgument x:TypeArguments="sd:DataColumnCollection">[dtPositiveEarTags.Columns]</InArgument>
+                    </InvokeMethod.TargetObject>
+                    <InArgument x:TypeArguments="x:String">EarTag</InArgument>
+                  </InvokeMethod>
+                  <Assign DisplayName="Assign iePositiveEarTags" sap:VirtualizedContainerService.HintSize="502.85714285714283,117.71428571428571" sap2010:WorkflowViewState.IdRef="Assign_127">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="str:MatchCollection">[iePositiveEarTags]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="str:MatchCollection" xml:space="preserve">[System.Text.RegularExpressions.Regex.Matches(strExtractedText,
     "\b(UK\d{12,15})\b(?=.*?\bPositive\b)", 
     RegexOptions.IgnoreCase Or RegexOptions.Singleline)]</InArgument>
-              </Assign.Value>
-            </Assign>
-            <Assign DisplayName="Assign iePositiveEarTags to listEarTags" sap:VirtualizedContainerService.HintSize="502.85714285714283,117.14285714285714" sap2010:WorkflowViewState.IdRef="Assign_128">
+                    </Assign.Value>
+                  </Assign>
+                  <Assign DisplayName="Assign iePositiveEarTags to listEarTags" sap:VirtualizedContainerService.HintSize="502.85714285714283,117.14285714285714" sap2010:WorkflowViewState.IdRef="Assign_128">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="scg:List(x:String)">[listEarTags]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="scg:List(x:String)">[iePositiveEartags.Cast(Of System.Text.RegularExpressions.Match)().Select(Function(m) m.Groups(1).Value.Trim().Replace("*", "")).Distinct().ToList()]</InArgument>
+                    </Assign.Value>
+                  </Assign>
+                  <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each item in listEarTags" sap:VirtualizedContainerService.HintSize="502.85714285714283,532.5714285714286" sap2010:WorkflowViewState.IdRef="ForEach`1_15" Values="[listEarTags]">
+                    <ui:ForEach.Body>
+                      <ActivityAction x:TypeArguments="x:String">
+                        <ActivityAction.Argument>
+                          <DelegateInArgument x:TypeArguments="x:String" Name="item" />
+                        </ActivityAction.Argument>
+                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="468.57142857142856,393.14285714285717" sap2010:WorkflowViewState.IdRef="Sequence_181">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <Assign sap:VirtualizedContainerService.HintSize="434.2857142857143,117.14285714285714" sap2010:WorkflowViewState.IdRef="Assign_129">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="x:String">[item]</OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="x:String">[item.ToString.Replace("Positive","").Trim]</InArgument>
+                            </Assign.Value>
+                          </Assign>
+                          <ui:AddDataRow DataRow="{x:Null}" ArrayRow="[{item}]" DataTable="[dtPositiveEarTags]" DisplayName="Add Data Row" sap:VirtualizedContainerService.HintSize="434.2857142857143,216" sap2010:WorkflowViewState.IdRef="AddDataRow_13" />
+                        </Sequence>
+                      </ActivityAction>
+                    </ui:ForEach.Body>
+                  </ui:ForEach>
+                </Sequence>
+                <Sequence DisplayName="Build Negative EarTag table" sap:VirtualizedContainerService.HintSize="450.2857142857143,57.142857142857146" sap2010:WorkflowViewState.IdRef="Sequence_174">
+                  <Sequence.Variables>
+                    <Variable x:TypeArguments="str:MatchCollection" Name="ieNegativeEartags" />
+                    <Variable x:TypeArguments="scg:List(x:String)" Name="listEarTags" />
+                    <Variable x:TypeArguments="scg:IEnumerable(str:Match)" Name="colNegativeMatches" />
+                  </Sequence.Variables>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <Assign DisplayName="Create dtNegativeEarTags" sap:VirtualizedContainerService.HintSize="450.2857142857143,117.14285714285714" sap2010:WorkflowViewState.IdRef="Assign_130">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="sd:DataTable">[dtNegativeEarTags]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="sd:DataTable">[New DataTable()]</InArgument>
+                    </Assign.Value>
+                  </Assign>
+                  <InvokeMethod DisplayName="Invoke Method" sap:VirtualizedContainerService.HintSize="450.2857142857143,172" sap2010:WorkflowViewState.IdRef="InvokeMethod_28" MethodName="Add">
+                    <InvokeMethod.TargetObject>
+                      <InArgument x:TypeArguments="sd:DataColumnCollection">[dtNegativeEarTags.Columns]</InArgument>
+                    </InvokeMethod.TargetObject>
+                    <InArgument x:TypeArguments="x:String">EarTag</InArgument>
+                  </InvokeMethod>
+                  <ui:Matches FirstMatch="{x:Null}" BuilderPattern="\b(UK\d{12,15})\b(?=.*?\bNegative\b)" DisplayName="Find Matching Patterns" sap:VirtualizedContainerService.HintSize="450.2857142857143,92" sap2010:WorkflowViewState.IdRef="Matches_2" Input="[strExtractedText]" IsBuilderTabModified="True" Model="[{&quot;Index&quot;:0,&quot;OperationID&quot;:&quot;LIT&quot;,&quot;OperationName&quot;:&quot;Literal&quot;,&quot;OperationValue&quot;:&quot;\\b(UK\\d{12,15})\\b(?=.*?\\bNegative\\b)&quot;,&quot;QuantifierFirstValue&quot;:&quot;1&quot;,&quot;QuantifierID&quot;:&quot;EXT&quot;,&quot;QuantifierName&quot;:&quot;Exactly&quot;,&quot;QuantifierSecondValue&quot;:null}]" Pattern="\b(UK\d{12,15})\b(?=.*?\bNegative\b)" RegexOption="IgnoreCase, Compiled" Result="[colNegativeMatches]" />
+                  <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="450.2857142857143,57.142857142857146" sap2010:WorkflowViewState.IdRef="CommentOut_27">
+                    <ui:CommentOut.Body>
+                      <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="468.57142857142856,285.14285714285717" sap2010:WorkflowViewState.IdRef="Sequence_182">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <Assign DisplayName="Assign ieNegativeEartags" sap:VirtualizedContainerService.HintSize="434.2857142857143,117.14285714285714" sap2010:WorkflowViewState.IdRef="Assign_131">
+                          <Assign.To>
+                            <OutArgument x:TypeArguments="str:MatchCollection">[ieNegativeEartags]</OutArgument>
+                          </Assign.To>
+                          <Assign.Value>
+                            <InArgument x:TypeArguments="str:MatchCollection">[System.Text.RegularExpressions.Regex.Matches(strExtractedText, "\b(UK\d{12,15})\b(?=.*?\bNegative\b)", RegexOptions.IgnoreCase Or RegexOptions.Singleline)]</InArgument>
+                          </Assign.Value>
+                        </Assign>
+                        <Assign DisplayName="Assign ieNegativeEartags to listEarTags" sap:VirtualizedContainerService.HintSize="434.2857142857143,108" sap2010:WorkflowViewState.IdRef="Assign_132">
+                          <Assign.To>
+                            <OutArgument x:TypeArguments="scg:List(x:String)">[listEarTags]</OutArgument>
+                          </Assign.To>
+                          <Assign.Value>
+                            <InArgument x:TypeArguments="scg:List(x:String)">[ieNegativeEartags.Cast(Of System.Text.RegularExpressions.Match)().Select(Function(m) m.Groups(1).Value.Trim().Replace("*", "")).Distinct().ToList()]</InArgument>
+                          </Assign.Value>
+                        </Assign>
+                      </Sequence>
+                    </ui:CommentOut.Body>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </ui:CommentOut>
+                  <ui:ForEach x:TypeArguments="str:Match" CurrentIndex="{x:Null}" DisplayName="For Each item in listEarTags" sap:VirtualizedContainerService.HintSize="450.2857142857143,415.42857142857144" sap2010:WorkflowViewState.IdRef="ForEach`1_16" Values="[colNegativeMatches]">
+                    <ui:ForEach.Body>
+                      <ActivityAction x:TypeArguments="str:Match">
+                        <ActivityAction.Argument>
+                          <DelegateInArgument x:TypeArguments="str:Match" Name="item" />
+                        </ActivityAction.Argument>
+                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,276" sap2010:WorkflowViewState.IdRef="Sequence_183">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ui:AddDataRow DataRow="{x:Null}" ArrayRow="[{item}]" DataTable="[dtNegativeEarTags]" DisplayName="Add Data Row" sap:VirtualizedContainerService.HintSize="381.7142857142857,216" sap2010:WorkflowViewState.IdRef="AddDataRow_14" />
+                        </Sequence>
+                      </ActivityAction>
+                    </ui:ForEach.Body>
+                  </ui:ForEach>
+                </Sequence>
+                <Sequence DisplayName="Build ReSample EarTag table" sap:VirtualizedContainerService.HintSize="450.2857142857143,57.142857142857146" sap2010:WorkflowViewState.IdRef="Sequence_175">
+                  <Sequence.Variables>
+                    <Variable x:TypeArguments="scg:List(x:String)" Name="listEarTags" />
+                    <Variable x:TypeArguments="str:MatchCollection" Name="ieReSampleEarTags" />
+                    <Variable x:TypeArguments="x:String" Name="strResampleBlock" />
+                  </Sequence.Variables>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <Assign DisplayName="Create dtReSampleEarTags" sap:VirtualizedContainerService.HintSize="434.2857142857143,117.14285714285714" sap2010:WorkflowViewState.IdRef="Assign_133">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="sd:DataTable">[dtReSampleEarTags]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="sd:DataTable">[New DataTable()]</InArgument>
+                    </Assign.Value>
+                  </Assign>
+                  <InvokeMethod DisplayName="Add Column" sap:VirtualizedContainerService.HintSize="434.2857142857143,172" sap2010:WorkflowViewState.IdRef="InvokeMethod_29" MethodName="Add">
+                    <InvokeMethod.TargetObject>
+                      <InArgument x:TypeArguments="sd:DataColumnCollection">[dtReSampleEarTags.Columns]</InArgument>
+                    </InvokeMethod.TargetObject>
+                    <InArgument x:TypeArguments="x:String">EarTag</InArgument>
+                  </InvokeMethod>
+                  <Assign DisplayName="Extract Resample Block" sap:VirtualizedContainerService.HintSize="434.2857142857143,117.14285714285714" sap2010:WorkflowViewState.IdRef="Assign_134">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="x:String">[strResampleBlock]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="x:String">[String.Join(Environment.NewLine, System.Text.RegularExpressions.Regex.Matches(strExtractedText, "Resample Results[\s\S]*?Number of Resample results\s*:\s*\d+", RegexOptions.IgnoreCase).Cast(Of Match)().Select(Function(m) m.Value))]</InArgument>
+                    </Assign.Value>
+                  </Assign>
+                  <Assign DisplayName="Assign ieReSampleEarTags" sap:VirtualizedContainerService.HintSize="434.2857142857143,117.14285714285714" sap2010:WorkflowViewState.IdRef="Assign_135">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="str:MatchCollection">[ieReSampleEarTags]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="str:MatchCollection">[System.Text.RegularExpressions.Regex.Matches(strResampleBlock, "\b(UK\d{12,15})\b", RegexOptions.IgnoreCase)]</InArgument>
+                    </Assign.Value>
+                  </Assign>
+                  <Assign DisplayName="Assign to listEarTags" sap:VirtualizedContainerService.HintSize="434.2857142857143,117.14285714285714" sap2010:WorkflowViewState.IdRef="Assign_136">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="scg:List(x:String)">[listEarTags]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="scg:List(x:String)">[ieReSampleEarTags.Cast(Of Match)().Select(Function(m) m.Groups(1).Value.Trim().Replace("*","")).Distinct().ToList()]</InArgument>
+                    </Assign.Value>
+                  </Assign>
+                  <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each item" sap:VirtualizedContainerService.HintSize="434.2857142857143,354.2857142857143" sap2010:WorkflowViewState.IdRef="ForEach`1_17" Values="[listEarTags]">
+                    <ui:ForEach.Body>
+                      <ActivityAction x:TypeArguments="x:String">
+                        <ActivityAction.Argument>
+                          <DelegateInArgument x:TypeArguments="x:String" Name="item" />
+                        </ActivityAction.Argument>
+                        <ui:AddDataRow DataRow="{x:Null}" ArrayRow="[{item}]" DataTable="[dtReSampleEarTags]" sap:VirtualizedContainerService.HintSize="333.7142857142857,193.14285714285714" sap2010:WorkflowViewState.IdRef="AddDataRow_15" />
+                      </ActivityAction>
+                    </ui:ForEach.Body>
+                  </ui:ForEach>
+                </Sequence>
+                <Sequence DisplayName="Build Rejected EarTag table" sap:VirtualizedContainerService.HintSize="450.2857142857143,57.142857142857146" sap2010:WorkflowViewState.IdRef="Sequence_176">
+                  <Sequence.Variables>
+                    <Variable x:TypeArguments="scg:List(x:String)" Name="listEarTags" />
+                    <Variable x:TypeArguments="str:MatchCollection" Name="ieRejectedEarTags" />
+                    <Variable x:TypeArguments="x:String" Name="strRejectedBlock" />
+                  </Sequence.Variables>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <Assign DisplayName="Create dtRejectedEarTags" sap:VirtualizedContainerService.HintSize="502.85714285714283,117.14285714285714" sap2010:WorkflowViewState.IdRef="Assign_137">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="sd:DataTable">[dtRejectedEarTags]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="sd:DataTable">[New DataTable()]</InArgument>
+                    </Assign.Value>
+                  </Assign>
+                  <InvokeMethod DisplayName="Invoke Method" sap:VirtualizedContainerService.HintSize="502.85714285714283,172" sap2010:WorkflowViewState.IdRef="InvokeMethod_30" MethodName="Add">
+                    <InvokeMethod.TargetObject>
+                      <InArgument x:TypeArguments="sd:DataColumnCollection">[dtRejectedEarTags.Columns]</InArgument>
+                    </InvokeMethod.TargetObject>
+                    <InArgument x:TypeArguments="x:String">EarTag</InArgument>
+                  </InvokeMethod>
+                  <Assign DisplayName="Extract the &quot;Rejected Results&quot; block" sap:VirtualizedContainerService.HintSize="502.85714285714283,117.14285714285714" sap2010:WorkflowViewState.IdRef="Assign_138">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="x:String">[strRejectedBlock]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="x:String">[System.Text.RegularExpressions.Regex.Match(strExtractedText, "Rejected Results[\s\S]*?Number of Rejected results\s*:\s*\d+", RegexOptions.IgnoreCase).Value]</InArgument>
+                    </Assign.Value>
+                  </Assign>
+                  <Assign DisplayName="Assign ieRejectedEarTags" sap:VirtualizedContainerService.HintSize="502.85714285714283,117.71428571428571" sap2010:WorkflowViewState.IdRef="Assign_139">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="str:MatchCollection">[ieRejectedEarTags]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="str:MatchCollection" xml:space="preserve">[System.Text.RegularExpressions.Regex.Matches(strRejectedBlock, 
+    "\b(UK\d{12,15})\b(?=[\s\S]{0,80}Rejected)", 
+    RegexOptions.IgnoreCase Or RegexOptions.Singleline)]</InArgument>
+                    </Assign.Value>
+                  </Assign>
+                  <Assign DisplayName="Assign ieRejectedEarTags to listEarTags" sap:VirtualizedContainerService.HintSize="502.85714285714283,117.14285714285714" sap2010:WorkflowViewState.IdRef="Assign_140">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="scg:List(x:String)">[listEarTags]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="scg:List(x:String)">[ieRejectedEartags.Cast(Of System.Text.RegularExpressions.Match)().Select(Function(m) m.Groups(1).Value.Trim().Replace("*", "")).Distinct().ToList()]</InArgument>
+                    </Assign.Value>
+                  </Assign>
+                  <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each item" sap:VirtualizedContainerService.HintSize="502.85714285714283,532.5714285714286" sap2010:WorkflowViewState.IdRef="ForEach`1_18" Values="[listEarTags]">
+                    <ui:ForEach.Body>
+                      <ActivityAction x:TypeArguments="x:String">
+                        <ActivityAction.Argument>
+                          <DelegateInArgument x:TypeArguments="x:String" Name="item" />
+                        </ActivityAction.Argument>
+                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="468.57142857142856,393.14285714285717" sap2010:WorkflowViewState.IdRef="Sequence_184">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <Assign sap:VirtualizedContainerService.HintSize="434.2857142857143,117.14285714285714" sap2010:WorkflowViewState.IdRef="Assign_141">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="x:String">[item]</OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="x:String">[item.ToString.Replace("Rejected","").Trim]</InArgument>
+                            </Assign.Value>
+                          </Assign>
+                          <ui:AddDataRow DataRow="{x:Null}" ArrayRow="[{item}]" DataTable="[dtRejectedEarTags]" DisplayName="Add Data Row" sap:VirtualizedContainerService.HintSize="434.2857142857143,216" sap2010:WorkflowViewState.IdRef="AddDataRow_16" />
+                        </Sequence>
+                      </ActivityAction>
+                    </ui:ForEach.Body>
+                  </ui:ForEach>
+                </Sequence>
+                <Sequence DisplayName="Build Main EarTag table" sap:VirtualizedContainerService.HintSize="450.2857142857143,94.28571428571429" sap2010:WorkflowViewState.IdRef="Sequence_177">
+                  <Sequence.Variables>
+                    <Variable x:TypeArguments="scg:List(x:String)" Name="listEarTags" />
+                  </Sequence.Variables>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <Assign DisplayName="Create dtEarTags" sap:VirtualizedContainerService.HintSize="450.2857142857143,117.14285714285714" sap2010:WorkflowViewState.IdRef="Assign_142">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="sd:DataTable">[dtEarTags]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="sd:DataTable">[New DataTable()]</InArgument>
+                    </Assign.Value>
+                  </Assign>
+                  <InvokeMethod DisplayName="Invoke Method" sap:VirtualizedContainerService.HintSize="450.2857142857143,172" sap2010:WorkflowViewState.IdRef="InvokeMethod_31" MethodName="Add">
+                    <InvokeMethod.TargetObject>
+                      <InArgument x:TypeArguments="sd:DataColumnCollection">[dtEarTags.Columns]</InArgument>
+                    </InvokeMethod.TargetObject>
+                    <InArgument x:TypeArguments="x:String">EarTag</InArgument>
+                  </InvokeMethod>
+                  <Assign DisplayName="Assign iePositiveEarTags" sap:VirtualizedContainerService.HintSize="450.2857142857143,117.14285714285714" sap2010:WorkflowViewState.IdRef="Assign_143">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="scg:List(x:String)">[listEarTags]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="scg:List(x:String)">[System.Text.RegularExpressions.Regex.Matches(strExtractedText, "\b[A-Z]{2}\d{9,12}\b", RegexOptions.IgnoreCase).Cast(Of Match).Select(Function(m) m.Value).Distinct().ToList()]</InArgument>
+                    </Assign.Value>
+                  </Assign>
+                  <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each item" sap:VirtualizedContainerService.HintSize="450.2857142857143,415.42857142857144" sap2010:WorkflowViewState.IdRef="ForEach`1_19" Values="[listEarTags]">
+                    <ui:ForEach.Body>
+                      <ActivityAction x:TypeArguments="x:String">
+                        <ActivityAction.Argument>
+                          <DelegateInArgument x:TypeArguments="x:String" Name="item" />
+                        </ActivityAction.Argument>
+                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,276" sap2010:WorkflowViewState.IdRef="Sequence_185">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ui:AddDataRow DataRow="{x:Null}" ArrayRow="[{item}]" DataTable="[dtEarTags]" DisplayName="Add Data Row" sap:VirtualizedContainerService.HintSize="381.7142857142857,216" sap2010:WorkflowViewState.IdRef="AddDataRow_17" />
+                        </Sequence>
+                      </ActivityAction>
+                    </ui:ForEach.Body>
+                  </ui:ForEach>
+                </Sequence>
+              </Sequence>
+            </Sequence>
+          </Sequence>
+        </Sequence>
+      </ui:CommentOut.Body>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:CommentOut>
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="450.2857142857143,86.28571428571429" sap2010:WorkflowViewState.IdRef="CommentOut_29">
+      <ui:CommentOut.Body>
+        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="523.4285714285714,501.14285714285717" sap2010:WorkflowViewState.IdRef="Sequence_190">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <Sequence DisplayName="Display List of ‘Rejected’ results" sap:VirtualizedContainerService.HintSize="489.14285714285717,441.14285714285717" sap2010:WorkflowViewState.IdRef="Sequence_179">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:Boolean" Name="booDis2" />
+              <Variable x:TypeArguments="x:String" Name="strFormOutput2" />
+              <Variable x:TypeArguments="x:String" Name="strButtonSelected2" />
+              <Variable x:TypeArguments="x:String" Name="dictFormInput1" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Assign DisplayName="Prepare Form Input (JSON)" sap:VirtualizedContainerService.HintSize="454.85714285714283,117.14285714285714" sap2010:WorkflowViewState.IdRef="Assign_144">
               <Assign.To>
-                <OutArgument x:TypeArguments="scg:List(x:String)">[listEarTags]</OutArgument>
+                <OutArgument x:TypeArguments="x:String">[dictFormInput1]</OutArgument>
               </Assign.To>
               <Assign.Value>
-                <InArgument x:TypeArguments="scg:List(x:String)">[iePositiveEartags.Cast(Of System.Text.RegularExpressions.Match)().Select(Function(m) m.Groups(1).Value.Trim().Replace("*", "")).Distinct().ToList()]</InArgument>
+                <InArgument x:TypeArguments="x:String">[Newtonsoft.Json.JsonConvert.SerializeObject(New Dictionary(Of String, Object) From { {"PopupMessage", "The following eartags were rejected by the validation process:"}, {"rejectedEartagsGrid", dtRejectedEarTags} })]</InArgument>
               </Assign.Value>
             </Assign>
-            <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each item in listEarTags" sap:VirtualizedContainerService.HintSize="502.85714285714283,532.5714285714286" sap2010:WorkflowViewState.IdRef="ForEach`1_15" Values="[listEarTags]">
-              <ui:ForEach.Body>
-                <ActivityAction x:TypeArguments="x:String">
-                  <ActivityAction.Argument>
-                    <DelegateInArgument x:TypeArguments="x:String" Name="item" />
-                  </ActivityAction.Argument>
-                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="468.57142857142856,393.14285714285717" sap2010:WorkflowViewState.IdRef="Sequence_181">
+            <ufa:FormActivity CreateFormActivityFileName="{x:Null}" CreateFormActivityFilePath="{x:Null}" IconPath="{x:Null}" LocalCSSFilePath="{x:Null}" TimeoutInSeconds="{x:Null}" WindowPositionLeft="{x:Null}" WindowPositionTop="{x:Null}" CreateFormId="df5dfef4-0aa4-4e3b-bfe0-aa2b77595120" DevTools="False" DisableMaximizeButton="False" DisableMinimizeButton="False" DisableSanitize="False" Dismissed="[booDis2]" DisplayName="List rejected Results" EnableAccessibility="False" FormFieldsInputData="[dictFormInput1]" FormFieldsOutputData="[strFormOutput2]" FormHeight="750" FormSchema="%[{&quot;label&quot;:&quot;HTML&quot;,&quot;attrs&quot;:[{&quot;attr&quot;:&quot;&quot;,&quot;value&quot;:&quot;&quot;}],&quot;content&quot;:&quot;{{data.PopupMessage}}&quot;,&quot;refreshOnChange&quot;:true,&quot;key&quot;:&quot;html&quot;,&quot;type&quot;:&quot;htmlelement&quot;,&quot;input&quot;:false,&quot;tableView&quot;:false},{&quot;label&quot;:&quot;List of Rejected Eartags&quot;,&quot;description&quot;:&quot;Please complete any relevant checks on the above rejected eartags before continuing with the process&quot;,&quot;key&quot;:&quot;rejectedEartagsGrid&quot;,&quot;type&quot;:&quot;datagrid&quot;,&quot;input&quot;:true,&quot;tableView&quot;:true,&quot;reorder&quot;:false,&quot;addAnotherPosition&quot;:&quot;bottom&quot;,&quot;layoutFixed&quot;:false,&quot;enableRowGroups&quot;:false,&quot;initEmpty&quot;:false,&quot;disableAddingRemovingRows&quot;:true,&quot;components&quot;:[{&quot;label&quot;:&quot;Rejected Eartag&quot;,&quot;tableView&quot;:true,&quot;key&quot;:&quot;EarTag&quot;,&quot;type&quot;:&quot;textfield&quot;,&quot;input&quot;:true,&quot;disabled&quot;:true,&quot;readOnly&quot;:true}]},{&quot;label&quot;:&quot;Container&quot;,&quot;customClass&quot;:&quot;box_continue&quot;,&quot;key&quot;:&quot;container1&quot;,&quot;type&quot;:&quot;container&quot;,&quot;input&quot;:true,&quot;tableView&quot;:false,&quot;components&quot;:[{&quot;label&quot;:&quot;Stop&quot;,&quot;theme&quot;:&quot;danger&quot;,&quot;leftIcon&quot;:&quot;fa fa-close&quot;,&quot;customClass&quot;:&quot;btn&quot;,&quot;tableView&quot;:false,&quot;key&quot;:&quot;no&quot;,&quot;custom&quot;:&quot;instance.emit('executeDoBlock', instance.component);&quot;,&quot;input&quot;:true,&quot;type&quot;:&quot;button&quot;,&quot;isResetData&quot;:false},{&quot;label&quot;:&quot;Continue&quot;,&quot;theme&quot;:&quot;success&quot;,&quot;leftIcon&quot;:&quot;fa fa-check&quot;,&quot;customClass&quot;:&quot;btn&quot;,&quot;tableView&quot;:false,&quot;key&quot;:&quot;continue&quot;,&quot;custom&quot;:&quot;instance.emit('executeDoBlock', instance.component);&quot;,&quot;input&quot;:true,&quot;type&quot;:&quot;button&quot;,&quot;isResetData&quot;:false}]}]" FormTheme="{}{&quot;Activities&quot;:[&quot;FORMS&quot;],&quot;Id&quot;:&quot;100120&quot;,&quot;Name&quot;:&quot;Default&quot;,&quot;BaseCss&quot;:&quot;./assets/css/themes/uipath.bootstrap.min.css&quot;,&quot;ImageSrc&quot;:&quot;./assets/themeicons/uipath.png&quot;,&quot;OverrideCssUrl&quot;:&quot;./assets/css/themes/uipath.custom.css&quot;,&quot;UserStyleOverrides&quot;:&quot;&quot;,&quot;Properties&quot;:&quot;&quot;,&quot;IsCustomTheme&quot;:false,&quot;Version&quot;:1,&quot;ThemeVersion&quot;:1}" FormTitle="Department for Environment, Food and Rural Affairs" FormWidth="1500" GenerateInputFields="False" sap:VirtualizedContainerService.HintSize="454.85714285714283,241.14285714285714" sap2010:WorkflowViewState.IdRef="FormActivity_2" IsReadOnly="False" MaxColumnsForSchemaGeneration="6" RunDoBlockFirst="False" RunInIsolatedMode="True" SelectedButton="[strButtonSelected2]" StartAsMinimized="False">
+              <ufa:FormActivity.Body>
+                <ActivityAction x:TypeArguments="scg:Dictionary(x:String, x:Object)">
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,90.85714285714286" sap2010:WorkflowViewState.IdRef="Sequence_187">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <Assign sap:VirtualizedContainerService.HintSize="434.2857142857143,117.14285714285714" sap2010:WorkflowViewState.IdRef="Assign_129">
-                      <Assign.To>
-                        <OutArgument x:TypeArguments="x:String">[item]</OutArgument>
-                      </Assign.To>
-                      <Assign.Value>
-                        <InArgument x:TypeArguments="x:String">[item.ToString.Replace("Positive","").Trim]</InArgument>
-                      </Assign.Value>
-                    </Assign>
-                    <ui:AddDataRow DataRow="{x:Null}" ArrayRow="[{item}]" DataTable="[dtPositiveEarTags]" DisplayName="Add Data Row" sap:VirtualizedContainerService.HintSize="434.2857142857143,216" sap2010:WorkflowViewState.IdRef="AddDataRow_13" />
                   </Sequence>
                 </ActivityAction>
-              </ui:ForEach.Body>
-            </ui:ForEach>
+              </ufa:FormActivity.Body>
+              <ufa:FormActivity.DelayBody>
+                <ActivityAction x:TypeArguments="scg:Dictionary(x:String, x:Object)">
+                  <Delay Duration="00:00:00.2500000" sap2010:WorkflowViewState.IdRef="Delay_8" />
+                </ActivityAction>
+              </ufa:FormActivity.DelayBody>
+              <ufa:FormActivity.FormFieldsCollection>
+                <scg:Dictionary x:TypeArguments="x:String, Argument" />
+              </ufa:FormActivity.FormFieldsCollection>
+            </ufa:FormActivity>
           </Sequence>
-          <Sequence DisplayName="Build Negative EarTag table" sap:VirtualizedContainerService.HintSize="450.2857142857143,103.42857142857143" sap2010:WorkflowViewState.IdRef="Sequence_174">
-            <Sequence.Variables>
-              <Variable x:TypeArguments="str:MatchCollection" Name="ieNegativeEartags" />
-              <Variable x:TypeArguments="scg:List(x:String)" Name="listEarTags" />
-              <Variable x:TypeArguments="scg:IEnumerable(str:Match)" Name="colNegativeMatches" />
-            </Sequence.Variables>
-            <sap:WorkflowViewStateService.ViewState>
-              <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                <x:Boolean x:Key="IsPinned">False</x:Boolean>
-              </scg:Dictionary>
-            </sap:WorkflowViewStateService.ViewState>
-            <Assign DisplayName="Create dtNegativeEarTags" sap:VirtualizedContainerService.HintSize="450.2857142857143,117.14285714285714" sap2010:WorkflowViewState.IdRef="Assign_130">
-              <Assign.To>
-                <OutArgument x:TypeArguments="sd:DataTable">[dtNegativeEarTags]</OutArgument>
-              </Assign.To>
-              <Assign.Value>
-                <InArgument x:TypeArguments="sd:DataTable">[New DataTable()]</InArgument>
-              </Assign.Value>
-            </Assign>
-            <InvokeMethod DisplayName="Invoke Method" sap:VirtualizedContainerService.HintSize="450.2857142857143,172" sap2010:WorkflowViewState.IdRef="InvokeMethod_28" MethodName="Add">
-              <InvokeMethod.TargetObject>
-                <InArgument x:TypeArguments="sd:DataColumnCollection">[dtNegativeEarTags.Columns]</InArgument>
-              </InvokeMethod.TargetObject>
-              <InArgument x:TypeArguments="x:String">EarTag</InArgument>
-            </InvokeMethod>
-            <ui:Matches FirstMatch="{x:Null}" BuilderPattern="\b(UK\d{12,15})\b(?=.*?\bNegative\b)" DisplayName="Find Matching Patterns" sap:VirtualizedContainerService.HintSize="450.2857142857143,92" sap2010:WorkflowViewState.IdRef="Matches_2" Input="[strExtractedText]" IsBuilderTabModified="True" Model="[{&quot;Index&quot;:0,&quot;OperationID&quot;:&quot;LIT&quot;,&quot;OperationName&quot;:&quot;Literal&quot;,&quot;OperationValue&quot;:&quot;\\b(UK\\d{12,15})\\b(?=.*?\\bNegative\\b)&quot;,&quot;QuantifierFirstValue&quot;:&quot;1&quot;,&quot;QuantifierID&quot;:&quot;EXT&quot;,&quot;QuantifierName&quot;:&quot;Exactly&quot;,&quot;QuantifierSecondValue&quot;:null}]" Pattern="\b(UK\d{12,15})\b(?=.*?\bNegative\b)" RegexOption="IgnoreCase, Compiled" Result="[colNegativeMatches]" />
-            <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="450.2857142857143,57.142857142857146" sap2010:WorkflowViewState.IdRef="CommentOut_27">
-              <ui:CommentOut.Body>
-                <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="468.57142857142856,285.14285714285717" sap2010:WorkflowViewState.IdRef="Sequence_182">
+        </Sequence>
+      </ui:CommentOut.Body>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:CommentOut>
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="450.2857142857143,86.28571428571429" sap2010:WorkflowViewState.IdRef="CommentOut_30">
+      <ui:CommentOut.Body>
+        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="684.5714285714286,1735.4285714285713" sap2010:WorkflowViewState.IdRef="Sequence_195">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Excel Process Scope" sap:VirtualizedContainerService.HintSize="650.2857142857143,1675.4285714285713" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_2">
+            <ueab:ExcelProcessScopeX.Body>
+              <ActivityAction x:TypeArguments="ui:IExcelProcess">
+                <ActivityAction.Argument>
+                  <DelegateInArgument x:TypeArguments="ui:IExcelProcess" Name="ExcelProcessScopeTag" />
+                </ActivityAction.Argument>
+                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="616,1565.142857142857" sap2010:WorkflowViewState.IdRef="Sequence_191">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <Assign DisplayName="Assign ieNegativeEartags" sap:VirtualizedContainerService.HintSize="434.2857142857143,117.14285714285714" sap2010:WorkflowViewState.IdRef="Assign_131">
-                    <Assign.To>
-                      <OutArgument x:TypeArguments="str:MatchCollection">[ieNegativeEartags]</OutArgument>
-                    </Assign.To>
-                    <Assign.Value>
-                      <InArgument x:TypeArguments="str:MatchCollection">[System.Text.RegularExpressions.Regex.Matches(strExtractedText, "\b(UK\d{12,15})\b(?=.*?\bNegative\b)", RegexOptions.IgnoreCase Or RegexOptions.Singleline)]</InArgument>
-                    </Assign.Value>
-                  </Assign>
-                  <Assign DisplayName="Assign ieNegativeEartags to listEarTags" sap:VirtualizedContainerService.HintSize="434.2857142857143,108" sap2010:WorkflowViewState.IdRef="Assign_132">
-                    <Assign.To>
-                      <OutArgument x:TypeArguments="scg:List(x:String)">[listEarTags]</OutArgument>
-                    </Assign.To>
-                    <Assign.Value>
-                      <InArgument x:TypeArguments="scg:List(x:String)">[ieNegativeEartags.Cast(Of System.Text.RegularExpressions.Match)().Select(Function(m) m.Groups(1).Value.Trim().Replace("*", "")).Distinct().ToList()]</InArgument>
-                    </Assign.Value>
-                  </Assign>
+                  <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" CreateNewFile="False" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="581.7142857142857,1505.142857142857" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_2" ResizeWindow="None" WorkbookPath="C:\Users\rj000088\DRACOE Robotics\Gamma Blood Reporting\Resample Calculator\Resample Calculator (3).xlsx">
+                    <ueab:ExcelApplicationCard.Body>
+                      <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
+                        <ActivityAction.Argument>
+                          <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel" />
+                        </ActivityAction.Argument>
+                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="547.4285714285714,1197.7142857142858" sap2010:WorkflowViewState.IdRef="Sequence_188">
+                          <Sequence.Variables>
+                            <Variable x:TypeArguments="x:String" Name="strValidGammaPercent" />
+                            <Variable x:TypeArguments="x:Int32" Name="intValidGammaPercent" />
+                          </Sequence.Variables>
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ueab:ReadCellValueX Cell="[Excel.Sheet(&quot;Sheet1&quot;).Cell(&quot;D10&quot;)]" DisplayName="Read Cell D10" GetFormattedText="True" sap:VirtualizedContainerService.HintSize="513.1428571428571,198.28571428571428" sap2010:WorkflowViewState.IdRef="ReadCellValueX_1">
+                            <ueab:ReadCellValueX.SaveTo>
+                              <OutArgument x:TypeArguments="x:String">[strValidGammaPercent]</OutArgument>
+                            </ueab:ReadCellValueX.SaveTo>
+                          </ueab:ReadCellValueX>
+                          <Assign DisplayName="Convert strValidGammaPercent to int" sap:VirtualizedContainerService.HintSize="513.1428571428571,117.14285714285714" sap2010:WorkflowViewState.IdRef="Assign_145">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="x:Int32">[intValidGammaPercent]</OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="x:Int32">[CInt(strValidGammaPercent.Replace("%",""))]</InArgument>
+                            </Assign.Value>
+                          </Assign>
+                          <If Condition="[intValidGammaPercent &lt;= 85]" DisplayName="Are there less than 85% Valid Results" sap:VirtualizedContainerService.HintSize="513.1428571428571,706.8571428571429" sap2010:WorkflowViewState.IdRef="If_17">
+                            <If.Then>
+                              <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="478.85714285714283,168" sap2010:WorkflowViewState.IdRef="Sequence_192">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <Assign DisplayName="Assign Resample Required" sap:VirtualizedContainerService.HintSize="434.2857142857143,108" sap2010:WorkflowViewState.IdRef="Assign_146">
+                                  <Assign.To>
+                                    <OutArgument x:TypeArguments="x:Boolean">[boolResampleRequired]</OutArgument>
+                                  </Assign.To>
+                                  <Assign.Value>
+                                    <InArgument x:TypeArguments="x:Boolean">True</InArgument>
+                                  </Assign.Value>
+                                </Assign>
+                              </Sequence>
+                            </If.Then>
+                            <If.Else>
+                              <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="478.85714285714283,366.2857142857143" sap2010:WorkflowViewState.IdRef="Sequence_193">
+                                <Sequence.Variables>
+                                  <Variable x:TypeArguments="x:String" Name="strPositiveGammaPercent" />
+                                  <Variable x:TypeArguments="x:Int32" Name="intPositiveGammaPercent" />
+                                </Sequence.Variables>
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <ueab:ReadCellValueX Cell="[Excel.Sheet(&quot;Sheet1&quot;).Cell(&quot;D13&quot;)]" DisplayName="Read Cell D13" GetFormattedText="True" sap:VirtualizedContainerService.HintSize="444.57142857142856,198.28571428571428" sap2010:WorkflowViewState.IdRef="ReadCellValueX_2">
+                                  <ueab:ReadCellValueX.SaveTo>
+                                    <OutArgument x:TypeArguments="x:String">[strPositiveGammaPercent]</OutArgument>
+                                  </ueab:ReadCellValueX.SaveTo>
+                                </ueab:ReadCellValueX>
+                                <Assign DisplayName="Convert strValidGammaPercent to int" sap:VirtualizedContainerService.HintSize="444.57142857142856,108" sap2010:WorkflowViewState.IdRef="Assign_147">
+                                  <Assign.To>
+                                    <OutArgument x:TypeArguments="x:Int32">[intPositiveGammaPercent]</OutArgument>
+                                  </Assign.To>
+                                  <Assign.Value>
+                                    <InArgument x:TypeArguments="x:Int32">[CInt(strPositiveGammaPercent.Replace("%",""))]</InArgument>
+                                  </Assign.Value>
+                                </Assign>
+                              </Sequence>
+                            </If.Else>
+                          </If>
+                          <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="513.1428571428571,115.42857142857143" sap2010:WorkflowViewState.IdRef="WriteLine_5" />
+                        </Sequence>
+                      </ActivityAction>
+                    </ueab:ExcelApplicationCard.Body>
+                  </ueab:ExcelApplicationCard>
                 </Sequence>
-              </ui:CommentOut.Body>
-              <sap:WorkflowViewStateService.ViewState>
-                <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                </scg:Dictionary>
-              </sap:WorkflowViewStateService.ViewState>
-            </ui:CommentOut>
-            <ui:ForEach x:TypeArguments="str:Match" CurrentIndex="{x:Null}" DisplayName="For Each item in listEarTags" sap:VirtualizedContainerService.HintSize="450.2857142857143,415.42857142857144" sap2010:WorkflowViewState.IdRef="ForEach`1_16" Values="[colNegativeMatches]">
-              <ui:ForEach.Body>
-                <ActivityAction x:TypeArguments="str:Match">
-                  <ActivityAction.Argument>
-                    <DelegateInArgument x:TypeArguments="str:Match" Name="item" />
-                  </ActivityAction.Argument>
-                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,276" sap2010:WorkflowViewState.IdRef="Sequence_183">
-                    <sap:WorkflowViewStateService.ViewState>
-                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                      </scg:Dictionary>
-                    </sap:WorkflowViewStateService.ViewState>
-                    <ui:AddDataRow DataRow="{x:Null}" ArrayRow="[{item}]" DataTable="[dtNegativeEarTags]" DisplayName="Add Data Row" sap:VirtualizedContainerService.HintSize="381.7142857142857,216" sap2010:WorkflowViewState.IdRef="AddDataRow_14" />
-                  </Sequence>
-                </ActivityAction>
-              </ui:ForEach.Body>
-            </ui:ForEach>
-          </Sequence>
-          <Sequence DisplayName="Build ReSample EarTag table" sap:VirtualizedContainerService.HintSize="450.2857142857143,103.42857142857143" sap2010:WorkflowViewState.IdRef="Sequence_175">
-            <Sequence.Variables>
-              <Variable x:TypeArguments="scg:List(x:String)" Name="listEarTags" />
-              <Variable x:TypeArguments="str:MatchCollection" Name="ieReSampleEarTags" />
-              <Variable x:TypeArguments="x:String" Name="strResampleBlock" />
-            </Sequence.Variables>
-            <sap:WorkflowViewStateService.ViewState>
-              <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                <x:Boolean x:Key="IsPinned">False</x:Boolean>
-              </scg:Dictionary>
-            </sap:WorkflowViewStateService.ViewState>
-            <Assign DisplayName="Create dtReSampleEarTags" sap:VirtualizedContainerService.HintSize="434.2857142857143,117.14285714285714" sap2010:WorkflowViewState.IdRef="Assign_133">
-              <Assign.To>
-                <OutArgument x:TypeArguments="sd:DataTable">[dtReSampleEarTags]</OutArgument>
-              </Assign.To>
-              <Assign.Value>
-                <InArgument x:TypeArguments="sd:DataTable">[New DataTable()]</InArgument>
-              </Assign.Value>
-            </Assign>
-            <InvokeMethod DisplayName="Add Column" sap:VirtualizedContainerService.HintSize="434.2857142857143,172" sap2010:WorkflowViewState.IdRef="InvokeMethod_29" MethodName="Add">
-              <InvokeMethod.TargetObject>
-                <InArgument x:TypeArguments="sd:DataColumnCollection">[dtReSampleEarTags.Columns]</InArgument>
-              </InvokeMethod.TargetObject>
-              <InArgument x:TypeArguments="x:String">EarTag</InArgument>
-            </InvokeMethod>
-            <Assign DisplayName="Extract Resample Block" sap:VirtualizedContainerService.HintSize="434.2857142857143,117.14285714285714" sap2010:WorkflowViewState.IdRef="Assign_134">
-              <Assign.To>
-                <OutArgument x:TypeArguments="x:String">[strResampleBlock]</OutArgument>
-              </Assign.To>
-              <Assign.Value>
-                <InArgument x:TypeArguments="x:String">[String.Join(Environment.NewLine, System.Text.RegularExpressions.Regex.Matches(strExtractedText, "Resample Results[\s\S]*?Number of Resample results\s*:\s*\d+", RegexOptions.IgnoreCase).Cast(Of Match)().Select(Function(m) m.Value))]</InArgument>
-              </Assign.Value>
-            </Assign>
-            <Assign DisplayName="Assign ieReSampleEarTags" sap:VirtualizedContainerService.HintSize="434.2857142857143,117.14285714285714" sap2010:WorkflowViewState.IdRef="Assign_135">
-              <Assign.To>
-                <OutArgument x:TypeArguments="str:MatchCollection">[ieReSampleEarTags]</OutArgument>
-              </Assign.To>
-              <Assign.Value>
-                <InArgument x:TypeArguments="str:MatchCollection">[System.Text.RegularExpressions.Regex.Matches(strResampleBlock, "\b(UK\d{12,15})\b", RegexOptions.IgnoreCase)]</InArgument>
-              </Assign.Value>
-            </Assign>
-            <Assign DisplayName="Assign to listEarTags" sap:VirtualizedContainerService.HintSize="434.2857142857143,117.14285714285714" sap2010:WorkflowViewState.IdRef="Assign_136">
-              <Assign.To>
-                <OutArgument x:TypeArguments="scg:List(x:String)">[listEarTags]</OutArgument>
-              </Assign.To>
-              <Assign.Value>
-                <InArgument x:TypeArguments="scg:List(x:String)">[ieReSampleEarTags.Cast(Of Match)().Select(Function(m) m.Groups(1).Value.Trim().Replace("*","")).Distinct().ToList()]</InArgument>
-              </Assign.Value>
-            </Assign>
-            <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each item" sap:VirtualizedContainerService.HintSize="434.2857142857143,354.2857142857143" sap2010:WorkflowViewState.IdRef="ForEach`1_17" Values="[listEarTags]">
-              <ui:ForEach.Body>
-                <ActivityAction x:TypeArguments="x:String">
-                  <ActivityAction.Argument>
-                    <DelegateInArgument x:TypeArguments="x:String" Name="item" />
-                  </ActivityAction.Argument>
-                  <ui:AddDataRow DataRow="{x:Null}" ArrayRow="[{item}]" DataTable="[dtReSampleEarTags]" sap:VirtualizedContainerService.HintSize="333.7142857142857,193.14285714285714" sap2010:WorkflowViewState.IdRef="AddDataRow_15" />
-                </ActivityAction>
-              </ui:ForEach.Body>
-            </ui:ForEach>
-          </Sequence>
-          <Sequence DisplayName="Build Rejected EarTag table" sap:VirtualizedContainerService.HintSize="450.2857142857143,103.42857142857143" sap2010:WorkflowViewState.IdRef="Sequence_176">
-            <Sequence.Variables>
-              <Variable x:TypeArguments="scg:List(x:String)" Name="listEarTags" />
-              <Variable x:TypeArguments="str:MatchCollection" Name="ieRejectedEarTags" />
-              <Variable x:TypeArguments="x:String" Name="strRejectedBlock" />
-            </Sequence.Variables>
-            <sap:WorkflowViewStateService.ViewState>
-              <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                <x:Boolean x:Key="IsPinned">False</x:Boolean>
-              </scg:Dictionary>
-            </sap:WorkflowViewStateService.ViewState>
-            <Assign DisplayName="Create dtRejectedEarTags" sap:VirtualizedContainerService.HintSize="502.85714285714283,117.14285714285714" sap2010:WorkflowViewState.IdRef="Assign_137">
-              <Assign.To>
-                <OutArgument x:TypeArguments="sd:DataTable">[dtRejectedEarTags]</OutArgument>
-              </Assign.To>
-              <Assign.Value>
-                <InArgument x:TypeArguments="sd:DataTable">[New DataTable()]</InArgument>
-              </Assign.Value>
-            </Assign>
-            <InvokeMethod DisplayName="Invoke Method" sap:VirtualizedContainerService.HintSize="502.85714285714283,172" sap2010:WorkflowViewState.IdRef="InvokeMethod_30" MethodName="Add">
-              <InvokeMethod.TargetObject>
-                <InArgument x:TypeArguments="sd:DataColumnCollection">[dtRejectedEarTags.Columns]</InArgument>
-              </InvokeMethod.TargetObject>
-              <InArgument x:TypeArguments="x:String">EarTag</InArgument>
-            </InvokeMethod>
-            <Assign DisplayName="Extract the &quot;Rejected Results&quot; block" sap:VirtualizedContainerService.HintSize="502.85714285714283,117.14285714285714" sap2010:WorkflowViewState.IdRef="Assign_138">
-              <Assign.To>
-                <OutArgument x:TypeArguments="x:String">[strRejectedBlock]</OutArgument>
-              </Assign.To>
-              <Assign.Value>
-                <InArgument x:TypeArguments="x:String">[System.Text.RegularExpressions.Regex.Match(strExtractedText, "Rejected Results[\s\S]*?Number of Rejected results\s*:\s*\d+", RegexOptions.IgnoreCase).Value]</InArgument>
-              </Assign.Value>
-            </Assign>
-            <Assign DisplayName="Assign ieRejectedEarTags" sap:VirtualizedContainerService.HintSize="502.85714285714283,117.71428571428571" sap2010:WorkflowViewState.IdRef="Assign_139">
-              <Assign.To>
-                <OutArgument x:TypeArguments="str:MatchCollection">[ieRejectedEarTags]</OutArgument>
-              </Assign.To>
-              <Assign.Value>
-                <InArgument x:TypeArguments="str:MatchCollection" xml:space="preserve">[System.Text.RegularExpressions.Regex.Matches(strRejectedBlock, 
-    "\b(UK\d{12,15})\b(?=[\s\S]{0,80}Rejected)", 
-    RegexOptions.IgnoreCase Or RegexOptions.Singleline)]</InArgument>
-              </Assign.Value>
-            </Assign>
-            <Assign DisplayName="Assign ieRejectedEarTags to listEarTags" sap:VirtualizedContainerService.HintSize="502.85714285714283,117.14285714285714" sap2010:WorkflowViewState.IdRef="Assign_140">
-              <Assign.To>
-                <OutArgument x:TypeArguments="scg:List(x:String)">[listEarTags]</OutArgument>
-              </Assign.To>
-              <Assign.Value>
-                <InArgument x:TypeArguments="scg:List(x:String)">[ieRejectedEartags.Cast(Of System.Text.RegularExpressions.Match)().Select(Function(m) m.Groups(1).Value.Trim().Replace("*", "")).Distinct().ToList()]</InArgument>
-              </Assign.Value>
-            </Assign>
-            <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each item" sap:VirtualizedContainerService.HintSize="502.85714285714283,532.5714285714286" sap2010:WorkflowViewState.IdRef="ForEach`1_18" Values="[listEarTags]">
-              <ui:ForEach.Body>
-                <ActivityAction x:TypeArguments="x:String">
-                  <ActivityAction.Argument>
-                    <DelegateInArgument x:TypeArguments="x:String" Name="item" />
-                  </ActivityAction.Argument>
-                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="468.57142857142856,393.14285714285717" sap2010:WorkflowViewState.IdRef="Sequence_184">
-                    <sap:WorkflowViewStateService.ViewState>
-                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                      </scg:Dictionary>
-                    </sap:WorkflowViewStateService.ViewState>
-                    <Assign sap:VirtualizedContainerService.HintSize="434.2857142857143,117.14285714285714" sap2010:WorkflowViewState.IdRef="Assign_141">
-                      <Assign.To>
-                        <OutArgument x:TypeArguments="x:String">[item]</OutArgument>
-                      </Assign.To>
-                      <Assign.Value>
-                        <InArgument x:TypeArguments="x:String">[item.ToString.Replace("Rejected","").Trim]</InArgument>
-                      </Assign.Value>
-                    </Assign>
-                    <ui:AddDataRow DataRow="{x:Null}" ArrayRow="[{item}]" DataTable="[dtRejectedEarTags]" DisplayName="Add Data Row" sap:VirtualizedContainerService.HintSize="434.2857142857143,216" sap2010:WorkflowViewState.IdRef="AddDataRow_16" />
-                  </Sequence>
-                </ActivityAction>
-              </ui:ForEach.Body>
-            </ui:ForEach>
-          </Sequence>
-          <Sequence DisplayName="Build Main EarTag table" sap:VirtualizedContainerService.HintSize="450.2857142857143,94.28571428571429" sap2010:WorkflowViewState.IdRef="Sequence_177">
-            <Sequence.Variables>
-              <Variable x:TypeArguments="scg:List(x:String)" Name="listEarTags" />
-            </Sequence.Variables>
-            <sap:WorkflowViewStateService.ViewState>
-              <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                <x:Boolean x:Key="IsPinned">False</x:Boolean>
-              </scg:Dictionary>
-            </sap:WorkflowViewStateService.ViewState>
-            <Assign DisplayName="Create dtEarTags" sap:VirtualizedContainerService.HintSize="450.2857142857143,117.14285714285714" sap2010:WorkflowViewState.IdRef="Assign_142">
-              <Assign.To>
-                <OutArgument x:TypeArguments="sd:DataTable">[dtEarTags]</OutArgument>
-              </Assign.To>
-              <Assign.Value>
-                <InArgument x:TypeArguments="sd:DataTable">[New DataTable()]</InArgument>
-              </Assign.Value>
-            </Assign>
-            <InvokeMethod DisplayName="Invoke Method" sap:VirtualizedContainerService.HintSize="450.2857142857143,172" sap2010:WorkflowViewState.IdRef="InvokeMethod_31" MethodName="Add">
-              <InvokeMethod.TargetObject>
-                <InArgument x:TypeArguments="sd:DataColumnCollection">[dtEarTags.Columns]</InArgument>
-              </InvokeMethod.TargetObject>
-              <InArgument x:TypeArguments="x:String">EarTag</InArgument>
-            </InvokeMethod>
-            <Assign DisplayName="Assign iePositiveEarTags" sap:VirtualizedContainerService.HintSize="450.2857142857143,117.14285714285714" sap2010:WorkflowViewState.IdRef="Assign_143">
-              <Assign.To>
-                <OutArgument x:TypeArguments="scg:List(x:String)">[listEarTags]</OutArgument>
-              </Assign.To>
-              <Assign.Value>
-                <InArgument x:TypeArguments="scg:List(x:String)">[System.Text.RegularExpressions.Regex.Matches(strExtractedText, "\b[A-Z]{2}\d{9,12}\b", RegexOptions.IgnoreCase).Cast(Of Match).Select(Function(m) m.Value).Distinct().ToList()]</InArgument>
-              </Assign.Value>
-            </Assign>
-            <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each item" sap:VirtualizedContainerService.HintSize="450.2857142857143,415.42857142857144" sap2010:WorkflowViewState.IdRef="ForEach`1_19" Values="[listEarTags]">
-              <ui:ForEach.Body>
-                <ActivityAction x:TypeArguments="x:String">
-                  <ActivityAction.Argument>
-                    <DelegateInArgument x:TypeArguments="x:String" Name="item" />
-                  </ActivityAction.Argument>
-                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,276" sap2010:WorkflowViewState.IdRef="Sequence_185">
-                    <sap:WorkflowViewStateService.ViewState>
-                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                      </scg:Dictionary>
-                    </sap:WorkflowViewStateService.ViewState>
-                    <ui:AddDataRow DataRow="{x:Null}" ArrayRow="[{item}]" DataTable="[dtEarTags]" DisplayName="Add Data Row" sap:VirtualizedContainerService.HintSize="381.7142857142857,216" sap2010:WorkflowViewState.IdRef="AddDataRow_17" />
-                  </Sequence>
-                </ActivityAction>
-              </ui:ForEach.Body>
-            </ui:ForEach>
-          </Sequence>
+              </ActivityAction>
+            </ueab:ExcelProcessScopeX.Body>
+          </ueab:ExcelProcessScopeX>
         </Sequence>
-      </Sequence>
-    </Sequence>
-    <Sequence DisplayName="Display List of ‘Rejected’ results" sap:VirtualizedContainerService.HintSize="489.1428571428571,418.2857142857143" sap2010:WorkflowViewState.IdRef="Sequence_179">
-      <Sequence.Variables>
-        <Variable x:TypeArguments="x:Boolean" Name="booDis2" />
-        <Variable x:TypeArguments="x:String" Name="strFormOutput2" />
-        <Variable x:TypeArguments="x:String" Name="strButtonSelected2" />
-        <Variable x:TypeArguments="x:String" Name="dictFormInput1" />
-      </Sequence.Variables>
+      </ui:CommentOut.Body>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:CommentOut>
+    <Sequence DisplayName="User Decision about resamples" sap:VirtualizedContainerService.HintSize="450.2857142857143,284.57142857142856" sap2010:WorkflowViewState.IdRef="Sequence_194">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Assign DisplayName="Prepare Form Input (JSON)" sap:VirtualizedContainerService.HintSize="454.85714285714283,117.14285714285714" sap2010:WorkflowViewState.IdRef="Assign_144">
-        <Assign.To>
-          <OutArgument x:TypeArguments="x:String">[dictFormInput1]</OutArgument>
-        </Assign.To>
-        <Assign.Value>
-          <InArgument x:TypeArguments="x:String">[Newtonsoft.Json.JsonConvert.SerializeObject(New Dictionary(Of String, Object) From { {"PopupMessage", "The following eartags were rejected by the validation process:"}, {"rejectedEartagsGrid", dtRejectedEarTags} })]</InArgument>
-        </Assign.Value>
-      </Assign>
-      <ufa:FormActivity CreateFormActivityFileName="{x:Null}" CreateFormActivityFilePath="{x:Null}" IconPath="{x:Null}" LocalCSSFilePath="{x:Null}" TimeoutInSeconds="{x:Null}" WindowPositionLeft="{x:Null}" WindowPositionTop="{x:Null}" CreateFormId="df5dfef4-0aa4-4e3b-bfe0-aa2b77595120" DevTools="False" DisableMaximizeButton="False" DisableMinimizeButton="False" DisableSanitize="False" Dismissed="[booDis2]" DisplayName="List rejected Results" EnableAccessibility="False" FormFieldsInputData="[dictFormInput1]" FormFieldsOutputData="[strFormOutput2]" FormHeight="750" FormSchema="%[{&quot;label&quot;:&quot;HTML&quot;,&quot;attrs&quot;:[{&quot;attr&quot;:&quot;&quot;,&quot;value&quot;:&quot;&quot;}],&quot;content&quot;:&quot;{{data.PopupMessage}}&quot;,&quot;refreshOnChange&quot;:true,&quot;key&quot;:&quot;html&quot;,&quot;type&quot;:&quot;htmlelement&quot;,&quot;input&quot;:false,&quot;tableView&quot;:false},{&quot;label&quot;:&quot;List of Rejected Eartags&quot;,&quot;description&quot;:&quot;Please complete any relevant checks on the above rejected eartags before continuing with the process&quot;,&quot;key&quot;:&quot;rejectedEartagsGrid&quot;,&quot;type&quot;:&quot;datagrid&quot;,&quot;input&quot;:true,&quot;tableView&quot;:true,&quot;reorder&quot;:false,&quot;addAnotherPosition&quot;:&quot;bottom&quot;,&quot;layoutFixed&quot;:false,&quot;enableRowGroups&quot;:false,&quot;initEmpty&quot;:false,&quot;disableAddingRemovingRows&quot;:true,&quot;components&quot;:[{&quot;label&quot;:&quot;Rejected Eartag&quot;,&quot;tableView&quot;:true,&quot;key&quot;:&quot;EarTag&quot;,&quot;type&quot;:&quot;textfield&quot;,&quot;input&quot;:true,&quot;disabled&quot;:true,&quot;readOnly&quot;:true}]},{&quot;label&quot;:&quot;Container&quot;,&quot;customClass&quot;:&quot;box_continue&quot;,&quot;key&quot;:&quot;container1&quot;,&quot;type&quot;:&quot;container&quot;,&quot;input&quot;:true,&quot;tableView&quot;:false,&quot;components&quot;:[{&quot;label&quot;:&quot;Stop&quot;,&quot;theme&quot;:&quot;danger&quot;,&quot;leftIcon&quot;:&quot;fa fa-close&quot;,&quot;customClass&quot;:&quot;btn&quot;,&quot;tableView&quot;:false,&quot;key&quot;:&quot;no&quot;,&quot;custom&quot;:&quot;instance.emit('executeDoBlock', instance.component);&quot;,&quot;input&quot;:true,&quot;type&quot;:&quot;button&quot;,&quot;isResetData&quot;:false},{&quot;label&quot;:&quot;Continue&quot;,&quot;theme&quot;:&quot;success&quot;,&quot;leftIcon&quot;:&quot;fa fa-check&quot;,&quot;customClass&quot;:&quot;btn&quot;,&quot;tableView&quot;:false,&quot;key&quot;:&quot;continue&quot;,&quot;custom&quot;:&quot;instance.emit('executeDoBlock', instance.component);&quot;,&quot;input&quot;:true,&quot;type&quot;:&quot;button&quot;,&quot;isResetData&quot;:false}]}]" FormTheme="{}{&quot;Activities&quot;:[&quot;FORMS&quot;],&quot;Id&quot;:&quot;100120&quot;,&quot;Name&quot;:&quot;Default&quot;,&quot;BaseCss&quot;:&quot;./assets/css/themes/uipath.bootstrap.min.css&quot;,&quot;ImageSrc&quot;:&quot;./assets/themeicons/uipath.png&quot;,&quot;OverrideCssUrl&quot;:&quot;./assets/css/themes/uipath.custom.css&quot;,&quot;UserStyleOverrides&quot;:&quot;&quot;,&quot;Properties&quot;:&quot;&quot;,&quot;IsCustomTheme&quot;:false,&quot;Version&quot;:1,&quot;ThemeVersion&quot;:1}" FormTitle="Department for Environment, Food and Rural Affairs" FormWidth="1500" GenerateInputFields="False" sap:VirtualizedContainerService.HintSize="454.85714285714283,241.14285714285714" sap2010:WorkflowViewState.IdRef="FormActivity_2" IsReadOnly="False" MaxColumnsForSchemaGeneration="6" RunDoBlockFirst="False" RunInIsolatedMode="True" SelectedButton="[strButtonSelected2]" StartAsMinimized="False">
-        <ufa:FormActivity.Body>
-          <ActivityAction x:TypeArguments="scg:Dictionary(x:String, x:Object)">
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,90.85714285714286" sap2010:WorkflowViewState.IdRef="Sequence_187">
+      <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Excel Process Scope" sap:VirtualizedContainerService.HintSize="416,86.28571428571429" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_3">
+        <ueab:ExcelProcessScopeX.Body>
+          <ActivityAction x:TypeArguments="ui:IExcelProcess">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="ui:IExcelProcess" Name="ExcelProcessScopeTag" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="507.42857142857144,1018.8571428571429" sap2010:WorkflowViewState.IdRef="Sequence_198">
+              <Sequence.Variables>
+                <Variable x:TypeArguments="x:String" Name="out_strButtonSelected" />
+              </Sequence.Variables>
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
+              <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" CreateNewFile="False" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="473.14285714285717,958.8571428571429" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_3" ResizeWindow="None" WorkbookPath="C:\Users\rj000088\DRACOE Robotics\Gamma Blood Reporting\Resample Calculator\Resample Calculator (3).xlsx">
+                <ueab:ExcelApplicationCard.Body>
+                  <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
+                    <ActivityAction.Argument>
+                      <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel" />
+                    </ActivityAction.Argument>
+                    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="438.85714285714283,651.4285714285714" sap2010:WorkflowViewState.IdRef="TryCatch_2">
+                      <TryCatch.Try>
+                        <d:Generic_PopUp IN_ErrorMessage="{x:Null}" OUT_ProcessType="{x:Null}" DisplayName="Generic PopUp" sap:VirtualizedContainerService.HintSize="400,411.42857142857144" IN_CSS_filepath="[&quot;/file://&quot; + Directory.GetCurrentDirectory + &quot;\Assets\Generic\YesNo.css&quot;]" IN_PopupMessage="&lt;h1&gt;User Input Required&lt;/h1&gt;&lt;p&gt;I have completed the Resample Calculator and resamples may be required. Can you confirm whether this is correct?&lt;/p&gt;" IN_PopupTitle="Department for Environment, Food and Rural Affairs" IN_WidthHeight="[{500,350}]" sap2010:WorkflowViewState.IdRef="Generic_PopUp_9" OUT_strButtonSelected="[out_strButtonSelected]">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </d:Generic_PopUp>
+                      </TryCatch.Try>
+                      <TryCatch.Catches>
+                        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="404.57142857142856,24" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ActivityAction x:TypeArguments="s:Exception">
+                            <ActivityAction.Argument>
+                              <DelegateInArgument x:TypeArguments="s:Exception" Name="Nothing" />
+                            </ActivityAction.Argument>
+                            <Assign sap:VirtualizedContainerService.HintSize="434.2857142857143,85.14285714285714" sap2010:WorkflowViewState.IdRef="Assign_148">
+                              <Assign.To>
+                                <OutArgument x:TypeArguments="x:String">[out_strButtonSelected]</OutArgument>
+                              </Assign.To>
+                              <Assign.Value>
+                                <InArgument x:TypeArguments="x:String">No</InArgument>
+                              </Assign.Value>
+                            </Assign>
+                          </ActivityAction>
+                        </Catch>
+                      </TryCatch.Catches>
+                    </TryCatch>
+                  </ActivityAction>
+                </ueab:ExcelApplicationCard.Body>
+              </ueab:ExcelApplicationCard>
             </Sequence>
           </ActivityAction>
-        </ufa:FormActivity.Body>
-        <ufa:FormActivity.DelayBody>
-          <ActivityAction x:TypeArguments="scg:Dictionary(x:String, x:Object)">
-            <Delay Duration="00:00:00.2500000" sap2010:WorkflowViewState.IdRef="Delay_8" />
-          </ActivityAction>
-        </ufa:FormActivity.DelayBody>
-        <ufa:FormActivity.FormFieldsCollection>
-          <scg:Dictionary x:TypeArguments="x:String, Argument" />
-        </ufa:FormActivity.FormFieldsCollection>
-      </ufa:FormActivity>
+        </ueab:ExcelProcessScopeX.Body>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </ueab:ExcelProcessScopeX>
+      <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="416,115.42857142857143" sap2010:WorkflowViewState.IdRef="WriteLine_6" />
     </Sequence>
   </Sequence>
 </Activity>
