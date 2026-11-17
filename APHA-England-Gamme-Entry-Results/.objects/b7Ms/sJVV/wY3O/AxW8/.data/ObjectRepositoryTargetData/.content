@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-1YMQm9t4Uyh7fhG1r-T9Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="t2.services.demeter.zeus.gsi.gov.uk/prweb/PRWebLDAP3/app/AnimalHealth/E0f4wlAkcclA3PWutqEKfwQm_7vfKPJV*/!STANDARD" CVScreenId="3a87b5e9-89fa-4231-ac49-cd57e9ffaf61" DesignTimeRectangle="108, 674, 259, 78" DesignTimeScaleFactor="1.75" ElementType="Text" FullSelectorArgument="&lt;webctrl id='PegaGadget0Ifr' tag='IFRAME' /&gt;&lt;webctrl aaname='Create Work And Find Customer' class='menu-item-title' tag='SPAN' visibleinnertext='Create Work And Find Customer' /&gt;" Guid="f500beba-18b4-4664-91b3-ad58457d4e1d" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Animal Health Portal' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="7b7e998604cd865a376c4d8fbe91fca4.png" xmlns="">0Z8IOQhUnMU6CGuRmYzp2UQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

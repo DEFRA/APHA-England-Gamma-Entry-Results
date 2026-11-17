@@ -1,0 +1,14 @@
+﻿{
+  "Name": "End Research",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "SYfAHKndUkWINgSH7IMOuQ",
+  "Reference": "u70FNKxx7EOHPBwkfez66Q/SYfAHKndUkWINgSH7IMOuQ",
+  "ParentRef": "u70FNKxx7EOHPBwkfez66Q/wY3Odw8p30mb1K4y4PwQ7Q",
+  "Created": "2026-10-14T06:26:34.6537439Z",
+  "Updated": "2026-10-14T06:26:34.6537439Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

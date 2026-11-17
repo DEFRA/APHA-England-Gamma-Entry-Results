@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Contact Method",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "7fEKSL5ITUCRVSS74sbZ2Q",
+  "Reference": "u70FNKxx7EOHPBwkfez66Q/7fEKSL5ITUCRVSS74sbZ2Q",
+  "ParentRef": "u70FNKxx7EOHPBwkfez66Q/wY3Odw8p30mb1K4y4PwQ7Q",
+  "Created": "2026-10-13T09:22:25.6287794Z",
+  "Updated": "2026-10-13T09:22:25.6287794Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

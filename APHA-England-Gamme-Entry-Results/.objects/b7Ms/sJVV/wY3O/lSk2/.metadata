@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Record Outbound Contact",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "lSk2fUoHFkGIjEkYjeWHyQ",
+  "Reference": "u70FNKxx7EOHPBwkfez66Q/lSk2fUoHFkGIjEkYjeWHyQ",
+  "ParentRef": "u70FNKxx7EOHPBwkfez66Q/wY3Odw8p30mb1K4y4PwQ7Q",
+  "Created": "2026-10-13T08:54:53.0213845Z",
+  "Updated": "2026-10-13T08:54:53.0213845Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

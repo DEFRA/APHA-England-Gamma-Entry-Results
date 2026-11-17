@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "MaUGn6Ffw7aWO0pF4au90zz8e4wt/psirXjZnpcGdURkgPtcusNk/xkMNRZSTVbRQpcd5dUiZoruc0RnQ9zSig==",
+  "dgSpecHash": "Z1GcA1cVDaa+BrhbnVqzlQV8LNWILnUXa0wnvHLgcy/kKiMQ6JL/ijiBj0wbTuIiPUvIIkoP7E7a3VUd+2YvVQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\rj000088\\OneDrive - Defra\\Documents\\GitHub\\APHA-England-Gamma-Entry-Results\\APHA-England-Gamme-Entry-Results\\.local\\",
   "expectedPackageFiles": [
@@ -16,7 +16,7 @@
     "C:\\Users\\rj000088\\.nuget\\packages\\csvhelper\\16.0.0\\csvhelper.16.0.0.nupkg.sha512",
     "C:\\Users\\rj000088\\.nuget\\packages\\documentformat.openxml\\2.16.0\\documentformat.openxml.2.16.0.nupkg.sha512",
     "C:\\Users\\rj000088\\.nuget\\packages\\dracoe.logging.64\\1.0.17\\dracoe.logging.64.1.0.17.nupkg.sha512",
-    "C:\\Users\\rj000088\\.nuget\\packages\\dracoe.microsoft.graph.64\\1.0.51\\dracoe.microsoft.graph.64.1.0.51.nupkg.sha512",
+    "C:\\Users\\rj000088\\.nuget\\packages\\dracoe.microsoft.graph.64\\1.0.60\\dracoe.microsoft.graph.64.1.0.60.nupkg.sha512",
     "C:\\Users\\rj000088\\.nuget\\packages\\dracoe.popups.64\\1.0.9\\dracoe.popups.64.1.0.9.nupkg.sha512",
     "C:\\Users\\rj000088\\.nuget\\packages\\dracoe.sam.64\\1.0.1\\dracoe.sam.64.1.0.1.nupkg.sha512",
     "C:\\Users\\rj000088\\.nuget\\packages\\dynamicexpresso.core\\2.12.0\\dynamicexpresso.core.2.12.0.nupkg.sha512",

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "INPUT animalId",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "KkxUXzll7kazlDVrgp_J-A",
+  "Reference": "u70FNKxx7EOHPBwkfez66Q/KkxUXzll7kazlDVrgp_J-A",
+  "ParentRef": "u70FNKxx7EOHPBwkfez66Q/sGD4vXyyCU-nN9wYZM5XVg",
+  "Created": "2026-10-02T08:13:52.547034Z",
+  "Updated": "2026-10-02T08:13:52.547034Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

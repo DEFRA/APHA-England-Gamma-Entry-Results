@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="gxcpfjdu6E-poRxTr_45Tg" Reference="u70FNKxx7EOHPBwkfez66Q/7fEKSL5ITUCRVSS74sbZ2Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="t2.services.demeter.zeus.gsi.gov.uk/prweb/PRWebLDAP3/app/AnimalHealth/E0f4wlAkcclA3PWutqEKfwQm_7vfKPJV*/!STANDARD" CVScreenId="497c6aef-2c2c-46a6-8c88-2cd1d31cb5ec" DesignTimeRectangle="1122, 620, 189, 63" DesignTimeScaleFactor="1.75" ElementType="DropDown" FullSelectorArgument="&lt;webctrl name='PegaGadget1Ifr' tag='IFRAME' /&gt;&lt;webctrl name='$PpyWorkPage$precordContactType' tag='SELECT' /&gt;" Guid="e8a006a2-4875-4b52-9c5b-0a24309daf53" ImageBase64="" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Animal Health Portal' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="497c6aef-2c2c-46a6-8c88-2cd1d31cb5ec" CvTextArea="486, 638, 187, 24" CvTextArgument="Contact Method" CvType="Text" DesignTimeRectangle="489, 636, 633, 31" ElementType="Text" FuzzySelectorArgument="&lt;webctrl name='PegaGadget1Ifr' tag='IFRAME' /&gt;&lt;webctrl aaname='Contact Method' tag='LABEL' type='' class='field-caption dataLabelForWrite icon-required ' check:innerText='Contact Method' /&gt;" Guid="1c303c35-1283-4369-9ffc-728cfe430baf" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="0e2fd1b9195fa212c29885590c0e32de.png" xmlns="">0Ls1SOTzj7ECQXcXVaA9wYA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

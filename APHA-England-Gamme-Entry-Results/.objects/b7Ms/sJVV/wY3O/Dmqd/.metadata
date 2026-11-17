@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Reason for Contact",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "DmqdQgUChkSdgAznCLI7Fg",
+  "Reference": "u70FNKxx7EOHPBwkfez66Q/DmqdQgUChkSdgAznCLI7Fg",
+  "ParentRef": "u70FNKxx7EOHPBwkfez66Q/wY3Odw8p30mb1K4y4PwQ7Q",
+  "Created": "2026-10-14T06:22:20.5729839Z",
+  "Updated": "2026-10-14T06:22:20.5729839Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

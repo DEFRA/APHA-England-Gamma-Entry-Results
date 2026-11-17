@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Create Work And Find Cu…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "AxW8OWyFf0OSsUVMl9QpxA",
+  "Reference": "u70FNKxx7EOHPBwkfez66Q/AxW8OWyFf0OSsUVMl9QpxA",
+  "ParentRef": "u70FNKxx7EOHPBwkfez66Q/wY3Odw8p30mb1K4y4PwQ7Q",
+  "Created": "2026-10-13T08:10:30.6447779Z",
+  "Updated": "2026-10-13T08:10:30.6447779Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

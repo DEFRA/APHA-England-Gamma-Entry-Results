@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="4fQzl--JIE-4n5S65AUycw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="qL4IOC3_bUSWRqMVefNUiw" Reference="u70FNKxx7EOHPBwkfez66Q/0gaU-NP6UEKjHVgR_alqig" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="t2.services.demeter.zeus.gsi.gov.uk/prweb/PRWebLDAP3/app/AnimalHealth/E0f4wlAkcclA3PWutqEKfwQm_7vfKPJV*/!STANDARD" CVScreenId="d0aead7e-5c52-4b2d-b4ac-0ecc6b539371" CvElementArea="214, 505, 385, 69" CvType="InputBox" DesignTimeRectangle="218, 507, 380, 63" DesignTimeScaleFactor="1.75" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl name='PegaGadget1Ifr' tag='IFRAME' /&gt;&lt;webctrl id='ActionOptions' tag='SELECT' type='' class='actionSelectStyle' aaname='  Take action  ' /&gt;" Guid="ce23ca95-59b9-4d65-8e28-27c0f80a89e5" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='Composite_HWRNDW49P7IFMVYY76YDSV5HKP2ITLJ7LA' title='Animal Health Portal' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="t2.services.demeter.zeus.gsi.gov.uk/prweb/PRWebLDAP3/app/AnimalHealth/E0f4wlAkcclA3PWutqEKfwQm_7vfKPJV*/!STANDARD" CVScreenId="d0aead7e-5c52-4b2d-b4ac-0ecc6b539371" CvElementArea="214, 505, 385, 69" CvType="InputBox" DesignTimeRectangle="218, 507, 380, 63" DesignTimeScaleFactor="1.75" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl name='PegaGadget1Ifr' tag='IFRAME' /&gt;&lt;webctrl id='ActionOptions' tag='SELECT' type='' class='actionSelectStyle' aaname='  Take action  ' /&gt;" Guid="ce23ca95-59b9-4d65-8e28-27c0f80a89e5" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='Composite_*' title='Animal Health Portal' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
       <TargetAnchorable.Anchors>
-        <scg:List x:TypeArguments="ITarget" Capacity="4">
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
           <Target CVScreenId="d0aead7e-5c52-4b2d-b4ac-0ecc6b539371" CvElementArea="40, 503, 176, 70" CvTextArea="55, 523, 138, 26" CvTextArgument="Take action" CvType="Button" DesignTimeRectangle="43, 507, 175, 45" ElementType="Text" FuzzySelectorArgument="&lt;webctrl name='PegaGadget1Ifr' tag='IFRAME' /&gt;&lt;webctrl id='pyActionLabel' tag='LABEL' type='' class='actionTitleBarLabelStyle' aaname='  Take action  ' check:innerText='Take action' /&gt;" Guid="e153bb9f-49c6-4a3a-821d-af6946c190a1" SearchSteps="FuzzySelector, CV" />
         </scg:List>
       </TargetAnchorable.Anchors>
-      <imageRef attrName="InformativeScreenshot" originalValue="7609312176d7ccfbfe8bea7ad8b5608a.png" xmlns="">09rfcfWnCYECg0x7Cy-1kgw</imageRef>
+      <imageRef attrName="InformativeScreenshot" originalValue="7609312176d7ccfbfe8bea7ad8b5608a.png" xmlns="">03jbDdLVNj0u_U1WOOfS1ng</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">SelectItem</x:String>
   </ObjectRepositoryTargetData.Data>

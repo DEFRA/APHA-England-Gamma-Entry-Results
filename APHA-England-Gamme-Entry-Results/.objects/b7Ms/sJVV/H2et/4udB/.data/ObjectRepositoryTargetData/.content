@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="7K-haTuWck6uVhAOd-Qu-Q" Reference="u70FNKxx7EOHPBwkfez66Q/4udBrz8pPEqqb0k8kywxnA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="t2.services.demeter.zeus.gsi.gov.uk/prweb/PRWebLDAP3/app/AnimalHealth/E0f4wlAkcclA3PWutqEKfwQm_7vfKPJV*/!STANDARD" CVScreenId="00e751a4-ff2f-464a-a9bf-286afc5d3685" CvElementArea="66, 1438, 214, 59" CvTextArea="143, 1455, 59, 26" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="69, 1440, 209, 56" DesignTimeScaleFactor="1.75" ElementType="Button" FuzzySelectorArgument="&lt;webctrl name='PegaGadget1Ifr' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='BUTTON' class='buttonTdButton' aaname=' Save ' check:innerText='Save' /&gt;" Guid="d317aa3e-137e-46bb-a2a3-c86a7f709ecc" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='Composite_*' title='Animal Health Portal' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="00e751a4-ff2f-464a-a9bf-286afc5d3685" CvElementArea="67, 1545, 179, 63" CvTextArea="110, 1562, 92, 26" CvTextArgument="Submit" CvType="Button" DesignTimeRectangle="71, 1547, 172, 56" ElementType="Button" FuzzySelectorArgument="&lt;webctrl name='PegaGadget1Ifr' tag='IFRAME' /&gt;&lt;webctrl name='pyCaseActionAreaButtons_pyWorkPage_10' tag='BUTTON' type='button' class='Strong pzhc pzbutton' aaname='Click here to submit the action' check:innerText='Submit' /&gt;" Guid="6267ccd7-eb34-4372-adf4-459612a564a6" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="baa64c0fd96ae88f408f14da9c47d629.png" xmlns="">0KoT6aECOBka6xuPAm23cvQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
