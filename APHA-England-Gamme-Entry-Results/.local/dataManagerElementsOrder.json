@@ -19,12 +19,6 @@
       "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "g_arrCaseID&b32e02a9-0b0c-4a1d-8776-91ffb0630f8a",
-        "g_Config&b32e02a9-0b0c-4a1d-8776-91ffb0630f8a",
-        "g_swProcessingTimer&b32e02a9-0b0c-4a1d-8776-91ffb0630f8a",
-        "g_intExitPoint&b32e02a9-0b0c-4a1d-8776-91ffb0630f8a",
-        "g_BearerToken&b32e02a9-0b0c-4a1d-8776-91ffb0630f8a",
-        "g_TransactionItem&b32e02a9-0b0c-4a1d-8776-91ffb0630f8a",
         "SystemException&StateMachine_1",
         "BusinessException&StateMachine_1",
         "TransactionNumber&StateMachine_1",
@@ -45,7 +39,13 @@
         "boolFolderExists&Sequence_42",
         "boolShouldStop&Sequence_25",
         "dateCaseStartTime&State_3",
-        "strCaseIDText&Sequence_28"
+        "strCaseIDText&Sequence_28",
+        "g_arrCaseID&34c77ed1-f326-4eb7-8142-64b3cb9ff86d",
+        "g_Config&34c77ed1-f326-4eb7-8142-64b3cb9ff86d",
+        "g_swProcessingTimer&34c77ed1-f326-4eb7-8142-64b3cb9ff86d",
+        "g_intExitPoint&34c77ed1-f326-4eb7-8142-64b3cb9ff86d",
+        "g_BearerToken&34c77ed1-f326-4eb7-8142-64b3cb9ff86d",
+        "g_TransactionItem&34c77ed1-f326-4eb7-8142-64b3cb9ff86d"
       ],
       "ArgumentsSectionElementsOrder": [
         "Credentials",
@@ -314,6 +314,12 @@
       "Path": "Test Sequence.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "g_arrCaseID&34c77ed1-f326-4eb7-8142-64b3cb9ff86d",
+        "g_Config&34c77ed1-f326-4eb7-8142-64b3cb9ff86d",
+        "g_swProcessingTimer&34c77ed1-f326-4eb7-8142-64b3cb9ff86d",
+        "g_intExitPoint&34c77ed1-f326-4eb7-8142-64b3cb9ff86d",
+        "g_BearerToken&34c77ed1-f326-4eb7-8142-64b3cb9ff86d",
+        "g_TransactionItem&34c77ed1-f326-4eb7-8142-64b3cb9ff86d",
         "strEmailAddress&Sequence_266",
         "strReceivedDate&Sequence_266",
         "strWorkPurpose&Sequence_258",
