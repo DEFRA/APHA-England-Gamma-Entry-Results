@@ -30641,7 +30641,11 @@
       "projectName": "APHA-England-Gamme-Entry-Results",
       "projectPath": "C:\\Users\\rj000088\\OneDrive - Defra\\Documents\\GitHub\\APHA-England-Gamma-Entry-Results\\APHA-England-Gamme-Entry-Results\\.local",
       "packagesPath": "C:\\Users\\rj000088\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rj000088\\OneDrive - Defra\\Documents\\GitHub\\APHA-England-Gamma-Entry-Results\\APHA-England-Gamme-Entry-Results\\.local"
+      "outputPath": "C:\\Users\\rj000088\\OneDrive - Defra\\Documents\\GitHub\\APHA-England-Gamma-Entry-Results\\APHA-England-Gamme-Entry-Results\\.local",
+      "UsingMicrosoftNETSdk": false,
+      "restoreAuditProperties": {
+        "enableAudit": "False"
+      }
     },
     "frameworks": {
       "net8.0-windows7.0": {

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "My Tasks",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "Dzlzuw_mYk-QybWtAJyZhg",
+  "Reference": "u70FNKxx7EOHPBwkfez66Q/Dzlzuw_mYk-QybWtAJyZhg",
+  "ParentRef": "u70FNKxx7EOHPBwkfez66Q/5AKwJrWe7EWlyWenL8ty3w",
+  "Created": "2026-11-23T08:53:44.5886123Z",
+  "Updated": "2026-11-23T08:53:44.5886123Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
